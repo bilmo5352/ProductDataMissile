@@ -1,0 +1,3099 @@
+{
+  "max_workers_used": 20,
+  "processing_time_seconds": 45.97,
+  "results": [
+    {
+      "error": null,
+      "extraction_strategy": "jsonld",
+      "num_products": 10,
+      "platform_url": "https://www.flipkart.com/search?q=products",
+      "products": [
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 15 AMD Ryzen 5 Hexa Core 7430U - (16 GB/512 GB SSD/Windows 11 Home) Aspire AS15-42 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-15-amd-ryzen-5-hexa-core-7430u-16-gb-512-gb-ssd-windows-11-home-as15-42-thin-light-laptop/p/itmdaf15e01a1d1a?pid=COMH397XW36HUXB8&lid=LSTCOMH397XW36HUXB8LCSOPU&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "DELL 15 Intel Core i3 13th Gen 1305U - (16 GB/512 GB SSD/Windows 11 Home) OVN353025001RING1O Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/dell-15-intel-core-i3-13th-gen-1305u-16-gb-512-gb-ssd-windows-11-home-ovn353025001ring1o-thin-light-laptop/p/itmb007cf7efac41?pid=COMHD99W94EPN2H2&lid=LSTCOMHD99W94EPN2H28GBQQL&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 3 Intel Celeron Dual Core - (8 GB/512 GB SSD/Windows 11 Home) A311-45 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-3-intel-celeron-dual-core-8-gb-512-gb-ssd-windows-11-home-a311-45-thin-light-laptop/p/itmad38595c5a902?pid=COMH7NCZY2QDJ5Z4&lid=LSTCOMH7NCZY2QDJ5Z4RHDRWI&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 3 Intel Celeron Dual Core - (8 GB/128 GB SSD/Windows 11 Home) A311-45 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-3-intel-celeron-dual-core-8-gb-128-gb-ssd-windows-11-home-a311-45-thin-light-laptop/p/itmad38595c5a902?pid=COMH7NCZGGGWQC4W&lid=LSTCOMH7NCZGGGWQC4WJEDQIL&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lenovo Chromebook MediaTek Kompanio 520 - (4 GB/128 GB EMMC Storage/Chrome OS) 14M868 Chromebook",
+          "product_url": "https://www.flipkart.com/lenovo-chromebook-mediatek-kompanio-520-4-gb-128-gb-emmc-storage-chrome-os-14m868/p/itm4dc67999fe3de?pid=COMGSYYSHRSUEGMG&lid=LSTCOMGSYYSHRSUEGMGMC9HLZ&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home) 83ER00KSIN Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/lenovo-ideapad-slim-3-intel-core-i5-12th-gen-12450h-16-gb-512-gb-ssd-windows-11-home-83er00ksin-thin-light-laptop/p/itm88613b4717866?pid=COMHCYGTDF5GYHFX&lid=LSTCOMHCYGTDF5GYHFXGCWAY7&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "DELL 15 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home) Inspiron 3535 / 15 DC 15255 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/dell-15-amd-ryzen-3-quad-core-7320u-8-gb-512-gb-ssd-windows-11-home-inspiron-3535-dc-15255-thin-light-laptop/p/itm58c1d8a904449?pid=COMH5PBYWQTDJGQG&lid=LSTCOMH5PBYWQTDJGQGUCDMOA&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lenovo 100e Chromebook Gen 4 MediaTek Kompanio 520 - (4 GB/32 GB EMMC Storage/Chrome OS) 82W00004HA Chromebook",
+          "product_url": "https://www.flipkart.com/lenovo-100e-chromebook-gen-4-mediatek-kompanio-520-4-gb-32-gb-emmc-storage-chrome-os-82w00004ha/p/itm1ae5f82096ad9?pid=COMHA9FK8YXVUUWA&lid=LSTCOMHA9FK8YXVUUWAMUOF4G&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A324-51 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-3-intel-core-i3-12th-gen-1215u-8-gb-512-gb-ssd-windows-11-home-a324-51-thin-light-laptop/p/itm7dda0a4d1d62a?pid=COMHY24RJH2YXVPG&lid=LSTCOMHY24RJH2YXVPGTVAAXW&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 3 Intel Celeron Dual Core N4500 - (8 GB/512 GB SSD/Windows 11 Home) A325-45 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-3-intel-celeron-dual-core-n4500-8-gb-512-gb-ssd-windows-11-home-a325-45-thin-light-laptop/p/itm9ca67a1a3ea22?pid=COMH59ENQYHDYJGX&lid=LSTCOMH59ENQYHDYJGX1QWEL9&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "jsonld",
+      "num_products": 10,
+      "platform_url": "https://www.flipkart.com/search?q=products",
+      "products": [
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 15 AMD Ryzen 5 Hexa Core 7430U - (16 GB/512 GB SSD/Windows 11 Home) Aspire AS15-42 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-15-amd-ryzen-5-hexa-core-7430u-16-gb-512-gb-ssd-windows-11-home-as15-42-thin-light-laptop/p/itmdaf15e01a1d1a?pid=COMH397XW36HUXB8&lid=LSTCOMH397XW36HUXB8LCSOPU&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "MOTOROLA Motobook 60 Full Metal OLED (i5 14th Gen) Intel Core 5 (Series 2) 210H - (16 GB/512 GB SSD/Windows 11 Home) 14IRH10R Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/motorola-motobook-60-full-metal-oled-i5-14th-gen-intel-core-5-series-2-210h-16-gb-512-gb-ssd-windows-11-home-14irh10r-thin-light-laptop/p/itme7b254581c42e?pid=COMHAUZW4MMNNCGT&lid=LSTCOMHAUZW4MMNNCGTEVATRK&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 3 Intel Celeron Dual Core - (8 GB/512 GB SSD/Windows 11 Home) A311-45 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-3-intel-celeron-dual-core-8-gb-512-gb-ssd-windows-11-home-a311-45-thin-light-laptop/p/itmad38595c5a902?pid=COMH7NCZY2QDJ5Z4&lid=LSTCOMH7NCZY2QDJ5Z4RHDRWI&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 3 Intel Celeron Dual Core - (8 GB/128 GB SSD/Windows 11 Home) A311-45 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-3-intel-celeron-dual-core-8-gb-128-gb-ssd-windows-11-home-a311-45-thin-light-laptop/p/itmad38595c5a902?pid=COMH7NCZGGGWQC4W&lid=LSTCOMH7NCZGGGWQC4WJEDQIL&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lenovo Chromebook MediaTek Kompanio 520 - (4 GB/128 GB EMMC Storage/Chrome OS) 14M868 Chromebook",
+          "product_url": "https://www.flipkart.com/lenovo-chromebook-mediatek-kompanio-520-4-gb-128-gb-emmc-storage-chrome-os-14m868/p/itm4dc67999fe3de?pid=COMGSYYSHRSUEGMG&lid=LSTCOMGSYYSHRSUEGMGMC9HLZ&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 14 with Backlit Keyboard, Intel Core i5 13th Gen 13500H - (16 GB/512 GB SSD/Windows 11 Home) AS14H-53 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-14-backlit-keyboard-intel-core-i5-13th-gen-13500h-16-gb-512-gb-ssd-windows-11-home-as14h-53-thin-light-laptop/p/itm6d9e21bde5a56?pid=COMHEWCQJGXCFPP4&lid=LSTCOMHEWCQJGXCFPP4YYLORL&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "DELL 15 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home) Inspiron 3535 / 15 DC 15255 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/dell-15-amd-ryzen-3-quad-core-7320u-8-gb-512-gb-ssd-windows-11-home-inspiron-3535-dc-15255-thin-light-laptop/p/itm58c1d8a904449?pid=COMH5PBYWQTDJGQG&lid=LSTCOMH5PBYWQTDJGQGUCDMOA&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lenovo 100e Chromebook Gen 4 MediaTek Kompanio 520 - (4 GB/32 GB EMMC Storage/Chrome OS) 82W00004HA Chromebook",
+          "product_url": "https://www.flipkart.com/lenovo-100e-chromebook-gen-4-mediatek-kompanio-520-4-gb-32-gb-emmc-storage-chrome-os-82w00004ha/p/itm1ae5f82096ad9?pid=COMHA9FK8YXVUUWA&lid=LSTCOMHA9FK8YXVUUWAMUOF4G&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A324-51 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-3-intel-core-i3-12th-gen-1215u-8-gb-512-gb-ssd-windows-11-home-a324-51-thin-light-laptop/p/itm7dda0a4d1d62a?pid=COMHY24RJH2YXVPG&lid=LSTCOMHY24RJH2YXVPGTVAAXW&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Acer Aspire 3 Intel Celeron Dual Core N4500 - (8 GB/512 GB SSD/Windows 11 Home) A325-45 Thin and Light Laptop",
+          "product_url": "https://www.flipkart.com/acer-aspire-3-intel-celeron-dual-core-n4500-8-gb-512-gb-ssd-windows-11-home-a325-45-thin-light-laptop/p/itm9ca67a1a3ea22?pid=COMH59ENQYHDYJGX&lid=LSTCOMH59ENQYHDYJGX1QWEL9&marketplace=FLIPKART&q=laptop&store=6bo%2Fb5g"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 8,
+      "platform_url": "https://darlingretail.com/search?q=products",
+      "products": [
+        {
+          "cost": 8900.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/25_7e45fccf-f03e-4525-9973-e5541328d8e9_600x.jpg?v=1755781998",
+          "product_name": "Vidiem VSTAR ADC MIXER GRINDER WITH 5 JARS",
+          "product_url": "https://darlingretail.com/products/vidiem-vstar-adc-mixer-grinder-with-5-jars?_pos=1&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 6600.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/1_929db4d5-6ce7-4a2b-9ee1-3c18e60cfa9f_600x.jpg?v=1755782023",
+          "product_name": "Vidiem Garnet Plus 2 Litre Table Top Wet Grinder",
+          "product_url": "https://darlingretail.com/products/vidiem-garnet-plus-2-litre-table-top-wet-grinder?_pos=2&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 2600.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_600fd339-c6f9-4254-ae01-2afb29f89380_600x.png?v=1755781894",
+          "product_name": "VICTOR 600W MIXER GRINDER",
+          "product_url": "https://darlingretail.com/products/victor-600w-mixer-grinder?_pos=3&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 3850.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_50fbe486-83ff-4d1e-93ec-788128edde09_600x.png?v=1755781811",
+          "product_name": "Vidiem Eva Prime 750W Mixer Grinder - 3 Jars",
+          "product_url": "https://darlingretail.com/products/vidiem-mixer-grinder-542-a-eva-carbon-mixer-grinder-750-watt?_pos=4&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 84999.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/11_d94f9093-5dee-4c63-818d-d6fd84539276_600x.webp?v=1763533332",
+          "product_name": "Oppo Find X9 5G | 16GB + 512GB | Titanium Grey",
+          "product_url": "https://darlingretail.com/products/oppo-find-x9-5g-16gb-512gb-titanium-grey?_pos=5&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 74999.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/11_419a9c94-8d01-47cd-b348-838c6fdd1f79_600x.webp?v=1763533325",
+          "product_name": "Oppo Find X9 5G | 12GB + 256GB | Titanium Grey",
+          "product_url": "https://darlingretail.com/products/oppo-find-x9-5g-12gb-256gb-titanium-grey?_pos=6&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 74999.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/319496_0_tooNpCpru_6204d293-1b12-4af1-8234-7b2fba3f4385_600x.webp?v=1763533581",
+          "product_name": "Oppo Find X9 5G | 12GB + 256GB | Space Black",
+          "product_url": "https://darlingretail.com/products/oppo-find-x9-5g-12gb-256gb-space-black?_pos=7&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 84999.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/319496_0_tooNpCpru_8f6177d3-5f99-4d58-abcc-ad6dd4f849d4_600x.webp?v=1763533285",
+          "product_name": "Oppo Find X9 5G | 16GB + 512GB | Space Black",
+          "product_url": "https://darlingretail.com/products/oppo-find-x9-5g-16gb-512gb-space-black?_pos=8&_sid=6228b50f6&_ss=r"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 8,
+      "platform_url": "https://darlingretail.com/search?q=products",
+      "products": [
+        {
+          "cost": 8900.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/25_7e45fccf-f03e-4525-9973-e5541328d8e9_600x.jpg?v=1755781998",
+          "product_name": "Vidiem VSTAR ADC MIXER GRINDER WITH 5 JARS",
+          "product_url": "https://darlingretail.com/products/vidiem-vstar-adc-mixer-grinder-with-5-jars?_pos=1&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 6600.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/1_929db4d5-6ce7-4a2b-9ee1-3c18e60cfa9f_600x.jpg?v=1755782023",
+          "product_name": "Vidiem Garnet Plus 2 Litre Table Top Wet Grinder",
+          "product_url": "https://darlingretail.com/products/vidiem-garnet-plus-2-litre-table-top-wet-grinder?_pos=2&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 2600.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_600fd339-c6f9-4254-ae01-2afb29f89380_600x.png?v=1755781894",
+          "product_name": "VICTOR 600W MIXER GRINDER",
+          "product_url": "https://darlingretail.com/products/victor-600w-mixer-grinder?_pos=3&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 3850.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_50fbe486-83ff-4d1e-93ec-788128edde09_600x.png?v=1755781811",
+          "product_name": "Vidiem Eva Prime 750W Mixer Grinder - 3 Jars",
+          "product_url": "https://darlingretail.com/products/vidiem-mixer-grinder-542-a-eva-carbon-mixer-grinder-750-watt?_pos=4&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 84999.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/11_d94f9093-5dee-4c63-818d-d6fd84539276_600x.webp?v=1763533332",
+          "product_name": "Oppo Find X9 5G | 16GB + 512GB | Titanium Grey",
+          "product_url": "https://darlingretail.com/products/oppo-find-x9-5g-16gb-512gb-titanium-grey?_pos=5&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 74999.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/11_419a9c94-8d01-47cd-b348-838c6fdd1f79_600x.webp?v=1763533325",
+          "product_name": "Oppo Find X9 5G | 12GB + 256GB | Titanium Grey",
+          "product_url": "https://darlingretail.com/products/oppo-find-x9-5g-12gb-256gb-titanium-grey?_pos=6&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 74999.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/319496_0_tooNpCpru_6204d293-1b12-4af1-8234-7b2fba3f4385_600x.webp?v=1763533581",
+          "product_name": "Oppo Find X9 5G | 12GB + 256GB | Space Black",
+          "product_url": "https://darlingretail.com/products/oppo-find-x9-5g-12gb-256gb-space-black?_pos=7&_sid=6228b50f6&_ss=r"
+        },
+        {
+          "cost": 84999.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/319496_0_tooNpCpru_8f6177d3-5f99-4d58-abcc-ad6dd4f849d4_600x.webp?v=1763533285",
+          "product_name": "Oppo Find X9 5G | 16GB + 512GB | Space Black",
+          "product_url": "https://darlingretail.com/products/oppo-find-x9-5g-16gb-512gb-space-black?_pos=8&_sid=6228b50f6&_ss=r"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 24,
+      "platform_url": "https://darlingretail.com/search?q=products",
+      "products": [
+        {
+          "cost": 15300.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_15edeef4-094c-4ea7-818a-36d3b1a0fe15_600x.webp?v=1755761325",
+          "product_name": "LG 81 cm (32 Inches) LED TV (32LR573B6LA.ATR)",
+          "product_url": "https://darlingretail.com/products/lg-81-cm-32-smart-tv-32lr573b6la-atr?_pos=1&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 13300.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/tv1_600x.jpg?v=1755761683",
+          "product_name": "Haier 80 cm (32 inch) HD Ready LED Smart TV (LE32A7)",
+          "product_url": "https://darlingretail.com/products/haier-80-cm-32-inch-hd-ready-led-smart-tv-le32a7?_pos=2&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 33600.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_57d0fa15-72c0-4ff2-bace-f56965d15cb0_600x.webp?v=1758607003",
+          "product_name": "Haier QLED 109cm (43) Google TV - 43S800QT",
+          "product_url": "https://darlingretail.com/products/haier-qled-109cm-43-google-tv-43s800qt?_pos=3&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 42990.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_4_600x.webp?v=1755761679",
+          "product_name": "Haier 55'' Smart Google TV With Far-Field - 55P7GT",
+          "product_url": "https://darlingretail.com/products/haier-55-smart-google-tv-with-far-field-55p7gt?_pos=4&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 26900.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/W020231016533772802896_1200_600x.png?v=1755761619",
+          "product_name": "Haier 43 inch 4K Google TV With Google Assistant (LE43K800UGT)",
+          "product_url": "https://darlingretail.com/products/haier-43-inch-4k-google-tv-with-google-assisatant-le43k800ugt?_pos=5&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 14990.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/5_2_600x.jpg?v=1755761675",
+          "product_name": "Panasonic 32 inch LED HD Smart TV ( TH-32MS550DX )",
+          "product_url": "https://darlingretail.com/products/panasonic-32-inch-led-hd-smart-tv-th-32ms550dx?_pos=6&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 18990.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/273070_giw8ln_c304a215-5954-437a-9012-24f38e7bbe09_600x.png?v=1755761641",
+          "product_name": "Panasonic 81 cm (32 inch) HD LED Smart Google TV with Dolby Digital Audio (TH-32MS680DX)",
+          "product_url": "https://darlingretail.com/products/panasonic-81-cm-32-inch-hd-led-smart-google-tv-with-dolby-digital-audio-th-32ms680dx?_pos=7&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 31490.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/18_c74bca49-cbc5-4cb3-8798-e8186bc71569_600x.webp?v=1755761682",
+          "product_name": "Haier 43'' Smart Google TV With Far-Field - 43P7GT",
+          "product_url": "https://darlingretail.com/products/haier-43-smart-google-tv-with-far-field-43p7gt?_pos=8&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 19500.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/2_61bc7d38-ac12-47c1-9ef7-e3a4288cdf2f_600x.jpg?v=1755761651",
+          "product_name": "LG 32LQ645BPTA.ATRQ 32 (81.28cm) AI Smart HD TV | WebOS | HDR",
+          "product_url": "https://darlingretail.com/products/lg-32lq645bpta-atrq-32-81-28cm-ai-smart-hd-tv-webos-hdr?_pos=9&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 28990.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_1b42d0a4-b98c-4f95-8599-66d40b808ae1_600x.webp?v=1755761239",
+          "product_name": "Haier 109 cm (43 Inches) 4K UHD Google Smart TV - Dolby Atmos (H43K85FUX)",
+          "product_url": "https://darlingretail.com/products/haier-108-cm-43-inches-4k-uhd-google-smart-tv-dolby-atmos-h43k85fux?_pos=10&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 49500.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_6a737e80-fcec-4db9-9085-3e12101ad38a_600x.jpg?v=1758553726",
+          "product_name": "Samsung 138 cm (55 inches) Crystal 4K Ultra HD Smart LED TV (UA55U8100FULXL)",
+          "product_url": "https://darlingretail.com/products/samsung-138-cm-55-inches-crystal-4k-ultra-hd-smart-led-tv-ua55u8100fulxl?_pos=11&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 14900.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/Samsung-110211268-in-hd-t4000-433732-ua32t4150arxxl-533481071--Download-Source--zoom_600x.png?v=1755761647",
+          "product_name": "SAMSUNG 80cm (32) HD Ready LED TV (UA32T4150ARXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-80cm-32-hd-ready-led-tv-ua32t4150arxxl?_pos=12&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 45500.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_45a544c6-eb05-4475-b947-a7ca567171f5_600x.webp?v=1747120835",
+          "product_name": "Lloyd 139 cm (55 Inches) WCG Vision Pro, 4K Ultra HD TV (GL55U4P2EK-55PS850F)",
+          "product_url": "https://darlingretail.com/products/lloyd-139-cm-55-inches-wcg-vision-pro-4k-ultra-hd-tv-gl55u4p2ek-55ps850f?_pos=13&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 105300.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_a0583f2f-3d83-4eb7-a755-1e92ecee8d3c_600x.jpg?v=1759918976",
+          "product_name": "Samsung 1.89 m (75) Q7F QLED 4K Smart TV | (QA75Q7FAAUXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-1-89-m-75-q7f-qled-4k-smart-tv-qa75q7faauxxl?_pos=14&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 59700.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_b44e3c22-7b25-46f6-8312-0f6660655c69_600x.jpg?v=1758551974",
+          "product_name": "Samsung 138 cm (55 inches) 4K Ultra HD QLED Smart TV (QA55Q8FAAULXL)",
+          "product_url": "https://darlingretail.com/products/samsung-138-cm-55-inches-4k-ultra-hd-qled-smart-tv-qa55q8faaulxl?_pos=15&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 48800.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/W020231016708713368202_1200_600x.png?v=1755761622",
+          "product_name": "Haier 55 inch 4K Ultra HD QLED Smart TV, (55S800QT)",
+          "product_url": "https://darlingretail.com/products/haier-55-inch-4k-ultra-hd-qled-smart-tv-55s800qt?_pos=16&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 18400.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/1_9b7fa04d-51c4-4118-8652-06f730965c77_600x.jpg?v=1755761709",
+          "product_name": "Samsung 81 Cm ( 32 Inch ) T4390 Smart HD TV (UA32T4390AKXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-32-t4390-smart-hd-tv-ua32t4390akxxl?_pos=17&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 17000.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/1_7853cb40-0f63-43cb-932e-a66ca8d575f2_600x.jpg?v=1755761712",
+          "product_name": "SAMSUNG 81 Cm ( 32 Inch ) HD Ready LED Smart TV (UA32T4350BKXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-32-inch-hd-ready-led-smart-tv-ua32t4350bkxxl?_pos=18&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 19000.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/1.1_7247ce71-9f2d-438a-aa9f-b4fe861ee30a_600x.jpg?v=1755761707",
+          "product_name": "LG 81 Cm ( 32 Inch ) LQ57 AI Smart HD TV (32LQ570BPSA.ATR)",
+          "product_url": "https://darlingretail.com/products/lg-lq57-32-81-28-cm-ai-smart-hd-tv-32lq570bpsa-atr?_pos=19&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 37200.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_1_7aca309d-cc97-4878-b632-15396b59e877_600x.webp?v=1755761304",
+          "product_name": "Samsung 1.08 m 43 Inch Crystal 4K UHD Smart TV (UA43U8600FULXL)",
+          "product_url": "https://darlingretail.com/products/samsung-1-08-m-43-inch-crystal-4k-uhd-smart-tv-ua43u8600fulxl?_pos=20&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 15000.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_40f3e913-5046-43c0-a6c2-321b2dc08b4c_600x.webp?v=1755761327",
+          "product_name": "Haier 80 cm (32 inch) HD Ready LED Smart Google TV",
+          "product_url": "https://darlingretail.com/products/haier-k82-80-cm-32-inch-hd-ready-led-smart-google-tv?_pos=21&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 34900.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_eae80653-5f31-42b3-b250-ccb5864b6bbe_600x.jpg?v=1755761238",
+          "product_name": "LG 109 cm (43 Inches) 4K UHD Smart TV – Ultra HD Display with AI Sound & WebOS (43UA83006LA)",
+          "product_url": "https://darlingretail.com/products/lg-109-cm-43-inches-4k-uhd-smart-tv-ultra-hd-display-with-ai-sound-webos-43ua83006la?_pos=22&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 35400.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_8bdb032c-c1c7-4e0b-a089-6ee8ce05e5e0_600x.jpg?v=1758555083",
+          "product_name": "Samsung 1.08 m 43 Inch Crystal 4K UHD Smart TV (UA43U8100FULXL)",
+          "product_url": "https://darlingretail.com/products/samsung-1-08-m-43-inch-crystal-4k-uhd-smart-tv-ua43u8100fulxl?_pos=23&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 27200.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/Samsung-110210453-in-fhd-t5310-ua43t5410akxxl-532972640--Download-Source--zoom_600x.png?v=1755761646",
+          "product_name": "SAMSUNG 108 cm (43 inch) Full HD LED Smart Tizen TV (UA43T5410AKXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-108-cm-43-inch-full-hd-led-smart-tizen-tv-ua43t5410akxxl?_pos=24&_sid=18e0d7a57&_ss=r"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 24,
+      "platform_url": "https://darlingretail.com/search?q=products",
+      "products": [
+        {
+          "cost": 15300.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_15edeef4-094c-4ea7-818a-36d3b1a0fe15_600x.webp?v=1755761325",
+          "product_name": "LG 81 cm (32 Inches) LED TV (32LR573B6LA.ATR)",
+          "product_url": "https://darlingretail.com/products/lg-81-cm-32-smart-tv-32lr573b6la-atr?_pos=1&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 13300.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/tv1_600x.jpg?v=1755761683",
+          "product_name": "Haier 80 cm (32 inch) HD Ready LED Smart TV (LE32A7)",
+          "product_url": "https://darlingretail.com/products/haier-80-cm-32-inch-hd-ready-led-smart-tv-le32a7?_pos=2&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 33600.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_57d0fa15-72c0-4ff2-bace-f56965d15cb0_600x.webp?v=1758607003",
+          "product_name": "Haier QLED 109cm (43) Google TV - 43S800QT",
+          "product_url": "https://darlingretail.com/products/haier-qled-109cm-43-google-tv-43s800qt?_pos=3&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 42990.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_4_600x.webp?v=1755761679",
+          "product_name": "Haier 55'' Smart Google TV With Far-Field - 55P7GT",
+          "product_url": "https://darlingretail.com/products/haier-55-smart-google-tv-with-far-field-55p7gt?_pos=4&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 26900.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/W020231016533772802896_1200_600x.png?v=1755761619",
+          "product_name": "Haier 43 inch 4K Google TV With Google Assistant (LE43K800UGT)",
+          "product_url": "https://darlingretail.com/products/haier-43-inch-4k-google-tv-with-google-assisatant-le43k800ugt?_pos=5&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 14990.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/5_2_600x.jpg?v=1755761675",
+          "product_name": "Panasonic 32 inch LED HD Smart TV ( TH-32MS550DX )",
+          "product_url": "https://darlingretail.com/products/panasonic-32-inch-led-hd-smart-tv-th-32ms550dx?_pos=6&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 18990.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/273070_giw8ln_c304a215-5954-437a-9012-24f38e7bbe09_600x.png?v=1755761641",
+          "product_name": "Panasonic 81 cm (32 inch) HD LED Smart Google TV with Dolby Digital Audio (TH-32MS680DX)",
+          "product_url": "https://darlingretail.com/products/panasonic-81-cm-32-inch-hd-led-smart-google-tv-with-dolby-digital-audio-th-32ms680dx?_pos=7&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 31490.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/18_c74bca49-cbc5-4cb3-8798-e8186bc71569_600x.webp?v=1755761682",
+          "product_name": "Haier 43'' Smart Google TV With Far-Field - 43P7GT",
+          "product_url": "https://darlingretail.com/products/haier-43-smart-google-tv-with-far-field-43p7gt?_pos=8&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 19500.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/2_61bc7d38-ac12-47c1-9ef7-e3a4288cdf2f_600x.jpg?v=1755761651",
+          "product_name": "LG 32LQ645BPTA.ATRQ 32 (81.28cm) AI Smart HD TV | WebOS | HDR",
+          "product_url": "https://darlingretail.com/products/lg-32lq645bpta-atrq-32-81-28cm-ai-smart-hd-tv-webos-hdr?_pos=9&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 28990.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_1b42d0a4-b98c-4f95-8599-66d40b808ae1_600x.webp?v=1755761239",
+          "product_name": "Haier 109 cm (43 Inches) 4K UHD Google Smart TV - Dolby Atmos (H43K85FUX)",
+          "product_url": "https://darlingretail.com/products/haier-108-cm-43-inches-4k-uhd-google-smart-tv-dolby-atmos-h43k85fux?_pos=10&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 49500.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_6a737e80-fcec-4db9-9085-3e12101ad38a_600x.jpg?v=1758553726",
+          "product_name": "Samsung 138 cm (55 inches) Crystal 4K Ultra HD Smart LED TV (UA55U8100FULXL)",
+          "product_url": "https://darlingretail.com/products/samsung-138-cm-55-inches-crystal-4k-ultra-hd-smart-led-tv-ua55u8100fulxl?_pos=11&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 14900.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/Samsung-110211268-in-hd-t4000-433732-ua32t4150arxxl-533481071--Download-Source--zoom_600x.png?v=1755761647",
+          "product_name": "SAMSUNG 80cm (32) HD Ready LED TV (UA32T4150ARXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-80cm-32-hd-ready-led-tv-ua32t4150arxxl?_pos=12&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 45500.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_45a544c6-eb05-4475-b947-a7ca567171f5_600x.webp?v=1747120835",
+          "product_name": "Lloyd 139 cm (55 Inches) WCG Vision Pro, 4K Ultra HD TV (GL55U4P2EK-55PS850F)",
+          "product_url": "https://darlingretail.com/products/lloyd-139-cm-55-inches-wcg-vision-pro-4k-ultra-hd-tv-gl55u4p2ek-55ps850f?_pos=13&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 105300.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_a0583f2f-3d83-4eb7-a755-1e92ecee8d3c_600x.jpg?v=1759918976",
+          "product_name": "Samsung 1.89 m (75) Q7F QLED 4K Smart TV | (QA75Q7FAAUXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-1-89-m-75-q7f-qled-4k-smart-tv-qa75q7faauxxl?_pos=14&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 59700.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_b44e3c22-7b25-46f6-8312-0f6660655c69_600x.jpg?v=1758551974",
+          "product_name": "Samsung 138 cm (55 inches) 4K Ultra HD QLED Smart TV (QA55Q8FAAULXL)",
+          "product_url": "https://darlingretail.com/products/samsung-138-cm-55-inches-4k-ultra-hd-qled-smart-tv-qa55q8faaulxl?_pos=15&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 48800.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/W020231016708713368202_1200_600x.png?v=1755761622",
+          "product_name": "Haier 55 inch 4K Ultra HD QLED Smart TV, (55S800QT)",
+          "product_url": "https://darlingretail.com/products/haier-55-inch-4k-ultra-hd-qled-smart-tv-55s800qt?_pos=16&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 18400.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/1_9b7fa04d-51c4-4118-8652-06f730965c77_600x.jpg?v=1755761709",
+          "product_name": "Samsung 81 Cm ( 32 Inch ) T4390 Smart HD TV (UA32T4390AKXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-32-t4390-smart-hd-tv-ua32t4390akxxl?_pos=17&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 17000.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/1_7853cb40-0f63-43cb-932e-a66ca8d575f2_600x.jpg?v=1755761712",
+          "product_name": "SAMSUNG 81 Cm ( 32 Inch ) HD Ready LED Smart TV (UA32T4350BKXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-32-inch-hd-ready-led-smart-tv-ua32t4350bkxxl?_pos=18&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 19000.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/products/1.1_7247ce71-9f2d-438a-aa9f-b4fe861ee30a_600x.jpg?v=1755761707",
+          "product_name": "LG 81 Cm ( 32 Inch ) LQ57 AI Smart HD TV (32LQ570BPSA.ATR)",
+          "product_url": "https://darlingretail.com/products/lg-lq57-32-81-28-cm-ai-smart-hd-tv-32lq570bpsa-atr?_pos=19&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 37200.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_1_7aca309d-cc97-4878-b632-15396b59e877_600x.webp?v=1755761304",
+          "product_name": "Samsung 1.08 m 43 Inch Crystal 4K UHD Smart TV (UA43U8600FULXL)",
+          "product_url": "https://darlingretail.com/products/samsung-1-08-m-43-inch-crystal-4k-uhd-smart-tv-ua43u8600fulxl?_pos=20&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 15000.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_40f3e913-5046-43c0-a6c2-321b2dc08b4c_600x.webp?v=1755761327",
+          "product_name": "Haier 80 cm (32 inch) HD Ready LED Smart Google TV",
+          "product_url": "https://darlingretail.com/products/haier-k82-80-cm-32-inch-hd-ready-led-smart-google-tv?_pos=21&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 34900.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_eae80653-5f31-42b3-b250-ccb5864b6bbe_600x.jpg?v=1755761238",
+          "product_name": "LG 109 cm (43 Inches) 4K UHD Smart TV – Ultra HD Display with AI Sound & WebOS (43UA83006LA)",
+          "product_url": "https://darlingretail.com/products/lg-109-cm-43-inches-4k-uhd-smart-tv-ultra-hd-display-with-ai-sound-webos-43ua83006la?_pos=22&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 35400.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/1_8bdb032c-c1c7-4e0b-a089-6ee8ce05e5e0_600x.jpg?v=1758555083",
+          "product_name": "Samsung 1.08 m 43 Inch Crystal 4K UHD Smart TV (UA43U8100FULXL)",
+          "product_url": "https://darlingretail.com/products/samsung-1-08-m-43-inch-crystal-4k-uhd-smart-tv-ua43u8100fulxl?_pos=23&_sid=18e0d7a57&_ss=r"
+        },
+        {
+          "cost": 27200.0,
+          "currency": "INR",
+          "image_url": "https://darlingretail.com/cdn/shop/files/Samsung-110210453-in-fhd-t5310-ua43t5410akxxl-532972640--Download-Source--zoom_600x.png?v=1755761646",
+          "product_name": "SAMSUNG 108 cm (43 inch) Full HD LED Smart Tizen TV (UA43T5410AKXXL)",
+          "product_url": "https://darlingretail.com/products/samsung-108-cm-43-inch-full-hd-led-smart-tizen-tv-ua43t5410akxxl?_pos=24&_sid=18e0d7a57&_ss=r"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "jsonld",
+      "num_products": 20,
+      "platform_url": "https://www.nykaa.com/search/result/?q=products",
+      "products": [
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Maybelline New York Super Stay Vinyl Ink Liquid Lipstick, Instant Shine Lasts Up To 16H",
+          "product_url": "https://www.nykaa.com/maybelline-new-york-superstay-vinyl-ink-liquid-lipstick/p/7066987"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Nykaa Matte To Last ! Transferproof Liquid Lipstick",
+          "product_url": "https://www.nykaa.com/nykaa-matte-to-last-liquid-lipstick/p/303851"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "M.A.C MACximal Matte Lipstick",
+          "product_url": "https://www.nykaa.com/m-a-c-macximal-matte-lipstick/p/13784071"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lakme Xtraordin-Airy Velvet Matte Lip Mousse",
+          "product_url": "https://www.nykaa.com/lakme-absolute-lip-mousse/p/10031582"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Kay Beauty Hydra Creme Lipstick",
+          "product_url": "https://www.nykaa.com/kay-beauty-signature-creme-lipstick-panache/p/16439255"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "LOreal Paris Infallible Matte Resistance Lipstick, Transfer Resistant Formula - Lazy Sunday 150",
+          "product_url": "https://www.nykaa.com/l-oreal-paris-infallible-matte-resistance-liquid-lipstick/p/13168494"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "MARS Matte Lipsticks Box",
+          "product_url": "https://www.nykaa.com/mars-matte-lipsticks-box/p/8930629"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Swiss Beauty HD Matte Lipstick , High Coverage , Lightweight",
+          "product_url": "https://www.nykaa.com/swiss-beauty-hd-matte-lipstick-lipstick/p/1231613"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Love Earth Liquid Mousse Matte Lipstick - Pack of 9",
+          "product_url": "https://www.nykaa.com/love-earth-liquid-mousse-lipstick-2-o-matte-finish-combo/p/12504558"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Love Earth Liquid Mousse Matte Lipstick",
+          "product_url": "https://www.nykaa.com/love-earth-liquid-mousse-matte-lipstick/p/20473963"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Nykaa Cosmetics So Creme! Creamy Matte Lipstick",
+          "product_url": "https://www.nykaa.com/nykaa-so-creme-creamy-matte-lipstick/p/683166"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Maybelline New York Super Stay Matte Ink Liquid Lipstick, Lasts Up to 16 Hours - 15 Lover",
+          "product_url": "https://www.nykaa.com/maybelline-new-york-superstay-matte-ink-liquid-lipstick/p/229917"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Swiss Beauty Bold Matt Lip Liner Pencil, Long-lasting , Matte Finish , Non-Drying",
+          "product_url": "https://www.nykaa.com/swiss-beauty-bold-matt-lip-liner/p/1202007"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lakme Xtraordin-Airy One-And-Done Lip, Eye & Cheek Tint",
+          "product_url": "https://www.nykaa.com/lakme-xtraordin-airy-one-and-done-lip-eye-and-cheek-tint/p/15264862"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Charlotte Tilbury Matte Revolution",
+          "product_url": "https://www.nykaa.com/charlotte-tilbury-matte-revolution/p/985204"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lakme Forever Matte Liquid Lip Color, 16Hr Lipstick, Lightweight & Transferproof",
+          "product_url": "https://www.nykaa.com/lakme-forever-matte-liquid-lip-colour/p/623306"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Nykaa Matte to Last No Transfer Long Lasting Lipstick",
+          "product_url": "https://www.nykaa.com/nykaa-cosmetics-matte-to-last-lipstick/p/21317427"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Ruby's Organics Onestick",
+          "product_url": "https://www.nykaa.com/ruby-s-organics-onestick/p/22739543"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Maybelline New York Superstay Teddy Tint - Lip And Cheek Color",
+          "product_url": "https://www.nykaa.com/maybelline-new-york-superstay-teddy-tint-lip-and-cheek-color/p/16807301"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Maybelline New York Sensational Liquid Matte Lipstick, Long-lasting - 03 Flush It Red",
+          "product_url": "https://www.nykaa.com/maybelline-new-york-sensational-liquid-matte-lipstick/p/648684"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 30,
+      "platform_url": "https://www.dotandkey.com/pages/searchtap-search?q=products",
+      "products": [
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_6242f31b-6d4e-4729-9563-9c3e7e96879c_large.jpg?v=1757933027",
+          "product_name": "Barrier Repair Intense Moisturizer With Ceramides",
+          "product_url": "https://dot-key.myshopify.com/products/barrier-repair-intense-moisturizer"
+        },
+        {
+          "cost": 1198.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/brmoistcopy_large.jpg?v=1731062834",
+          "product_name": "Barrier Repair Moisturizer-Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/barrier-repair-moisturizer-duo"
+        },
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-1_cc24a602-1169-487d-8419-5681659434b2_large.jpg?v=1757933155",
+          "product_name": "Barrier Repair Oil-Free Moisturizer with Ceramides",
+          "product_url": "https://dot-key.myshopify.com/products/barrier-repair-oil-free-moisturizer"
+        },
+        {
+          "cost": 395.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/BRMoisturizerListing1-100g_9315909a-3bcf-4d05-b433-d9e779d43807_large.jpg?v=1757933267",
+          "product_name": "Barrier Repair Moisturizer (Hyaluronic + Ceramides)",
+          "product_url": "https://dot-key.myshopify.com/products/dot-key-ceramides-hyaluronic-hydrating-face-cream-i-repairs-skin-barrier-intense-moisturization-sensitive-dry-skin-fragrance-free"
+        },
+        {
+          "cost": 990.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/vitaminccopy_large.jpg?v=1735980596",
+          "product_name": "Vitamin C + E Moisturizer, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-e-moisturizer-pack-of-2"
+        },
+        {
+          "cost": 495.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1c-Vit-C-Moisturizer_adcbccb6-945c-4c1a-ac7f-d8a40e3bf5ec_large.jpg?v=1740647106",
+          "product_name": "Vitamin C + E Moisturizer for Glowing Skin",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-e-super-bright-moisturizer"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/2_238f4093-c9a0-4362-8390-6879b32b9444_large.jpg?v=1727354883",
+          "product_name": "Strawberry Dew Cleansing Balm for Dewy Skin",
+          "product_url": "https://dot-key.myshopify.com/products/strawberry-dew-daily-cleansing-balm"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Artboard1-100ml_32db19c5-64ed-4fec-9d56-aad02d774ea0_large.jpg?v=1754919216",
+          "product_name": "Vitamin C + E Gel Face Wash for Glowing Skin",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-e-gel-facewash"
+        },
+        {
+          "cost": 495.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_633a965b-708a-484e-a47b-047cefe8d398_large.jpg?v=1754919028",
+          "product_name": "Cica Calming Night Gel (Niacinamide + Green Tea)",
+          "product_url": "https://dot-key.myshopify.com/products/cica-calming-skin-renewing-night-gel"
+        },
+        {
+          "cost": 1094.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_98c19e2a-a260-4909-a118-f26ca3f77634_large.jpg?v=1747205482",
+          "product_name": "Peace Out Acne Super Cica Duo",
+          "product_url": "https://dot-key.myshopify.com/products/peace-out-acne-super-cica-duo"
+        },
+        {
+          "cost": 990.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/cicacopy_large.jpg?v=1735981435",
+          "product_name": "Cica & Niacinamide Night Gel, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/cica-niacinamide-night-gel-pack-of-2"
+        },
+        {
+          "cost": 495.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-72-hrs-gel---listing_large.jpg?v=1744369744",
+          "product_name": "72HR Hydrating Gel Moisturizer + Probiotics",
+          "product_url": "https://dot-key.myshopify.com/products/hydrating-gel-probiotics-72-hr"
+        },
+        {
+          "cost": 990.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/procopy_large.jpg?v=1735980200",
+          "product_name": "72HR Hydrating Gel Moisturizer, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/72hr-hydrating-lightweight-gel-moisturizer-pack-of-2"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_6167dff7-de14-46be-a3b5-7e7c41defd84_large.jpg?v=1758114511",
+          "product_name": "Watermelon Gel Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/watermelon-vitamin-c-face-wash-gel-1"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-BRfacewash-Listing_7f3ad808-96ce-41d0-86b7-4a913f7db960_large.jpg?v=1754918416",
+          "product_name": "Barrier Repair Gentle Hydrating Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/dot-key-barrier-repair-gentle-hydrating-face-wash-with-5-essential-ceramides-hyaluronic-ph-5-5-fragrance-sulphate-free-for-sensitive-dry-skin"
+        },
+        {
+          "cost": 1485.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_6_2886d659-1aef-4710-99e2-e0ea81b106b7_large.jpg?v=1744262961",
+          "product_name": "Best of Vitamin C Skincare Trio",
+          "product_url": "https://dot-key.myshopify.com/products/best-of-vitamin-c-skincare-trio"
+        },
+        {
+          "cost": 1884.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_4960bcb5-4293-4ea6-b59a-9dc2a7d6dd45_large.jpg?v=1742894266",
+          "product_name": "Vitamin C Daily Glow Booster Combo",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-daily-glow-booster-combo"
+        },
+        {
+          "cost": 295.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-Vit-C-Foaming-FW_large.jpg?v=1738833219",
+          "product_name": "Vitamin C Foaming Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-super-bright-foaming-face-wash"
+        },
+        {
+          "cost": 1139.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_6_large.jpg?v=1744262423",
+          "product_name": "Acne Control CTM Night Care Regime",
+          "product_url": "https://dot-key.myshopify.com/products/cica-superstar-trio"
+        },
+        {
+          "cost": 990.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/cicaday2copy_large.jpg?v=1735980402",
+          "product_name": "Cica Calming Oil Free Moisturizer, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/cica-calming-oil-free-moisturizer-pack-of-2"
+        },
+        {
+          "cost": 395.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_282e0ca4-17c6-4749-ba64-380c2dd3135b_large.png?v=1759904361",
+          "product_name": "Cica (Centella) + Niacinamide Oil Free Moisturizer",
+          "product_url": "https://dot-key.myshopify.com/products/cica-5-niacinamide-oil-free-moisturizer-for-dark-spots-acne-fragrance-free-oily-sensitive-acne-prone-skin"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-Deep-Pore-Cleanser_1_large.jpg?v=1705741985",
+          "product_name": "Deep Pore Clean Foaming Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/deep-pore-clean-milky-foam-cleanser-120ml"
+        },
+        {
+          "cost": 1198.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_88b22e74-83db-45a5-9652-9aa5bc5a048b_large.jpg?v=1747204950",
+          "product_name": "Forever Young Retinol Power Duo",
+          "product_url": "https://dot-key.myshopify.com/products/forever-young-retinol-power-duo"
+        },
+        {
+          "cost": 940.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/PO_d828c97b-7dd0-4d6c-9c22-61433860df3f_large.jpg?v=1747644521",
+          "product_name": "Instant Cooling Watermelon Duo",
+          "product_url": "https://dot-key.myshopify.com/products/instant-cooling-watermelon-duo"
+        },
+        {
+          "cost": 1198.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/retinolcopy_large.jpg?v=1735980978",
+          "product_name": "Retinol + Ceramide Night Cream, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/retinol-ceramide-night-cream-pack-of-2"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_239bbf6f-5e55-4960-b34e-7e28bf0f584a_large.jpg?v=1754040188",
+          "product_name": "Retinol Night Repair Cream with Ceramides",
+          "product_url": "https://dot-key.myshopify.com/products/retinol-ceramide-age-defense-night-cream"
+        },
+        {
+          "cost": 744.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/PO_6f8856f7-dbf6-4ad0-b5c1-036590ac2828_large.jpg?v=1747644701",
+          "product_name": "Cleanse + Moisturize Watermelon Duo",
+          "product_url": "https://dot-key.myshopify.com/products/cleanse-moisturize-watermelon-duo"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_c05b99e0-c177-4e08-bf58-269833e70161_large.jpg?v=1754041030",
+          "product_name": "Mango Detan Gel Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/mango-face-wash"
+        },
+        {
+          "cost": 495.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-WM-M_large.jpg?v=1757932175",
+          "product_name": "Watermelon Gel Moisturizer With Hyaluronic",
+          "product_url": "https://dot-key.myshopify.com/products/watermelon-moisturizer-icy-gel"
+        },
+        {
+          "cost": 1788.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/PO_457cd450-30a9-4b08-b3e3-ea6a428c2f19_large.jpg?v=1747472167",
+          "product_name": "Watermelon Oil Free Skin Combo",
+          "product_url": "https://dot-key.myshopify.com/products/watermelon-oil-free-skin-combo"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "fallback",
+      "num_products": 1,
+      "platform_url": "https://www.jiomart.com/search?q=products",
+      "products": [
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "https://www.jiomart.com/msassets/images/icons/ic_chevron_down_white.svg",
+          "product_name": "Delivery to:Mumbai 400020 Delivery to: Mumbai 400020 Select Delivery Location Sign In or set delivery location to see product availability, offers and discounts. Sign In to select address Enter PIN Co",
+          "product_url": "https://www.jiomart.com/search?q=products"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "jsonld",
+      "num_products": 20,
+      "platform_url": "https://www.nykaa.com/search/result/?q=products",
+      "products": [
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Maybelline New York Super Stay Vinyl Ink Liquid Lipstick, Instant Shine Lasts Up To 16H",
+          "product_url": "https://www.nykaa.com/maybelline-new-york-superstay-vinyl-ink-liquid-lipstick/p/7066987"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Nykaa Matte To Last ! Transferproof Liquid Lipstick",
+          "product_url": "https://www.nykaa.com/nykaa-matte-to-last-liquid-lipstick/p/303851"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "M.A.C MACximal Matte Lipstick",
+          "product_url": "https://www.nykaa.com/m-a-c-macximal-matte-lipstick/p/13784071"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lakme Xtraordin-Airy Velvet Matte Lip Mousse",
+          "product_url": "https://www.nykaa.com/lakme-absolute-lip-mousse/p/10031582"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Kay Beauty Hydra Creme Lipstick",
+          "product_url": "https://www.nykaa.com/kay-beauty-signature-creme-lipstick-panache/p/16439255"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "LOreal Paris Infallible Matte Resistance Lipstick, Transfer Resistant Formula - Lazy Sunday 150",
+          "product_url": "https://www.nykaa.com/l-oreal-paris-infallible-matte-resistance-liquid-lipstick/p/13168494"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "MARS Matte Lipsticks Box",
+          "product_url": "https://www.nykaa.com/mars-matte-lipsticks-box/p/8930629"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Swiss Beauty HD Matte Lipstick , High Coverage , Lightweight",
+          "product_url": "https://www.nykaa.com/swiss-beauty-hd-matte-lipstick-lipstick/p/1231613"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Love Earth Liquid Mousse Matte Lipstick - Pack of 9",
+          "product_url": "https://www.nykaa.com/love-earth-liquid-mousse-lipstick-2-o-matte-finish-combo/p/12504558"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Love Earth Liquid Mousse Matte Lipstick",
+          "product_url": "https://www.nykaa.com/love-earth-liquid-mousse-matte-lipstick/p/20473963"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Nykaa Cosmetics So Creme! Creamy Matte Lipstick",
+          "product_url": "https://www.nykaa.com/nykaa-so-creme-creamy-matte-lipstick/p/683166"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Maybelline New York Super Stay Matte Ink Liquid Lipstick, Lasts Up to 16 Hours - 15 Lover",
+          "product_url": "https://www.nykaa.com/maybelline-new-york-superstay-matte-ink-liquid-lipstick/p/229917"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Swiss Beauty Bold Matt Lip Liner Pencil, Long-lasting , Matte Finish , Non-Drying",
+          "product_url": "https://www.nykaa.com/swiss-beauty-bold-matt-lip-liner/p/1202007"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lakme Xtraordin-Airy One-And-Done Lip, Eye & Cheek Tint",
+          "product_url": "https://www.nykaa.com/lakme-xtraordin-airy-one-and-done-lip-eye-and-cheek-tint/p/15264862"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Charlotte Tilbury Matte Revolution",
+          "product_url": "https://www.nykaa.com/charlotte-tilbury-matte-revolution/p/985204"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Lakme Forever Matte Liquid Lip Color, 16Hr Lipstick, Lightweight & Transferproof",
+          "product_url": "https://www.nykaa.com/lakme-forever-matte-liquid-lip-colour/p/623306"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Nykaa Matte to Last No Transfer Long Lasting Lipstick",
+          "product_url": "https://www.nykaa.com/nykaa-cosmetics-matte-to-last-lipstick/p/21317427"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Ruby's Organics Onestick",
+          "product_url": "https://www.nykaa.com/ruby-s-organics-onestick/p/22739543"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Maybelline New York Superstay Teddy Tint - Lip And Cheek Color",
+          "product_url": "https://www.nykaa.com/maybelline-new-york-superstay-teddy-tint-lip-and-cheek-color/p/16807301"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Maybelline New York Sensational Liquid Matte Lipstick, Long-lasting - 03 Flush It Red",
+          "product_url": "https://www.nykaa.com/maybelline-new-york-sensational-liquid-matte-lipstick/p/648684"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "fallback",
+      "num_products": 1,
+      "platform_url": "https://www.jiomart.com/search?q=Commercial+Smart+Lights",
+      "products": [
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "https://www.jiomart.com/msassets/images/icons/ic_chevron_down_white.svg",
+          "product_name": "Delivery to:Mumbai 400020 Delivery to: Mumbai 400020 Select Delivery Location Sign In or set delivery location to see product availability, offers and discounts. Sign In to select address Enter PIN Co",
+          "product_url": "https://www.jiomart.com/search?q=Commercial+Smart+Lights"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 30,
+      "platform_url": "https://www.dotandkey.com/pages/searchtap-search?q=products",
+      "products": [
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_6242f31b-6d4e-4729-9563-9c3e7e96879c_large.jpg?v=1757933027",
+          "product_name": "Barrier Repair Intense Moisturizer With Ceramides",
+          "product_url": "https://dot-key.myshopify.com/products/barrier-repair-intense-moisturizer"
+        },
+        {
+          "cost": 1198.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/brmoistcopy_large.jpg?v=1731062834",
+          "product_name": "Barrier Repair Moisturizer-Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/barrier-repair-moisturizer-duo"
+        },
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-1_cc24a602-1169-487d-8419-5681659434b2_large.jpg?v=1757933155",
+          "product_name": "Barrier Repair Oil-Free Moisturizer with Ceramides",
+          "product_url": "https://dot-key.myshopify.com/products/barrier-repair-oil-free-moisturizer"
+        },
+        {
+          "cost": 395.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/BRMoisturizerListing1-100g_9315909a-3bcf-4d05-b433-d9e779d43807_large.jpg?v=1757933267",
+          "product_name": "Barrier Repair Moisturizer (Hyaluronic + Ceramides)",
+          "product_url": "https://dot-key.myshopify.com/products/dot-key-ceramides-hyaluronic-hydrating-face-cream-i-repairs-skin-barrier-intense-moisturization-sensitive-dry-skin-fragrance-free"
+        },
+        {
+          "cost": 990.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/vitaminccopy_large.jpg?v=1735980596",
+          "product_name": "Vitamin C + E Moisturizer, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-e-moisturizer-pack-of-2"
+        },
+        {
+          "cost": 495.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1c-Vit-C-Moisturizer_adcbccb6-945c-4c1a-ac7f-d8a40e3bf5ec_large.jpg?v=1740647106",
+          "product_name": "Vitamin C + E Moisturizer for Glowing Skin",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-e-super-bright-moisturizer"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/2_238f4093-c9a0-4362-8390-6879b32b9444_large.jpg?v=1727354883",
+          "product_name": "Strawberry Dew Cleansing Balm for Dewy Skin",
+          "product_url": "https://dot-key.myshopify.com/products/strawberry-dew-daily-cleansing-balm"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Artboard1-100ml_32db19c5-64ed-4fec-9d56-aad02d774ea0_large.jpg?v=1754919216",
+          "product_name": "Vitamin C + E Gel Face Wash for Glowing Skin",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-e-gel-facewash"
+        },
+        {
+          "cost": 495.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_633a965b-708a-484e-a47b-047cefe8d398_large.jpg?v=1754919028",
+          "product_name": "Cica Calming Night Gel (Niacinamide + Green Tea)",
+          "product_url": "https://dot-key.myshopify.com/products/cica-calming-skin-renewing-night-gel"
+        },
+        {
+          "cost": 1094.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_98c19e2a-a260-4909-a118-f26ca3f77634_large.jpg?v=1747205482",
+          "product_name": "Peace Out Acne Super Cica Duo",
+          "product_url": "https://dot-key.myshopify.com/products/peace-out-acne-super-cica-duo"
+        },
+        {
+          "cost": 990.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/cicacopy_large.jpg?v=1735981435",
+          "product_name": "Cica & Niacinamide Night Gel, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/cica-niacinamide-night-gel-pack-of-2"
+        },
+        {
+          "cost": 495.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-72-hrs-gel---listing_large.jpg?v=1744369744",
+          "product_name": "72HR Hydrating Gel Moisturizer + Probiotics",
+          "product_url": "https://dot-key.myshopify.com/products/hydrating-gel-probiotics-72-hr"
+        },
+        {
+          "cost": 990.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/procopy_large.jpg?v=1735980200",
+          "product_name": "72HR Hydrating Gel Moisturizer, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/72hr-hydrating-lightweight-gel-moisturizer-pack-of-2"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_6167dff7-de14-46be-a3b5-7e7c41defd84_large.jpg?v=1758114511",
+          "product_name": "Watermelon Gel Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/watermelon-vitamin-c-face-wash-gel-1"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-BRfacewash-Listing_7f3ad808-96ce-41d0-86b7-4a913f7db960_large.jpg?v=1754918416",
+          "product_name": "Barrier Repair Gentle Hydrating Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/dot-key-barrier-repair-gentle-hydrating-face-wash-with-5-essential-ceramides-hyaluronic-ph-5-5-fragrance-sulphate-free-for-sensitive-dry-skin"
+        },
+        {
+          "cost": 1485.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_6_2886d659-1aef-4710-99e2-e0ea81b106b7_large.jpg?v=1744262961",
+          "product_name": "Best of Vitamin C Skincare Trio",
+          "product_url": "https://dot-key.myshopify.com/products/best-of-vitamin-c-skincare-trio"
+        },
+        {
+          "cost": 1884.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_4960bcb5-4293-4ea6-b59a-9dc2a7d6dd45_large.jpg?v=1742894266",
+          "product_name": "Vitamin C Daily Glow Booster Combo",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-daily-glow-booster-combo"
+        },
+        {
+          "cost": 295.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-Vit-C-Foaming-FW_large.jpg?v=1738833219",
+          "product_name": "Vitamin C Foaming Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/vitamin-c-super-bright-foaming-face-wash"
+        },
+        {
+          "cost": 1139.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_6_large.jpg?v=1744262423",
+          "product_name": "Acne Control CTM Night Care Regime",
+          "product_url": "https://dot-key.myshopify.com/products/cica-superstar-trio"
+        },
+        {
+          "cost": 990.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/cicaday2copy_large.jpg?v=1735980402",
+          "product_name": "Cica Calming Oil Free Moisturizer, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/cica-calming-oil-free-moisturizer-pack-of-2"
+        },
+        {
+          "cost": 395.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_282e0ca4-17c6-4749-ba64-380c2dd3135b_large.png?v=1759904361",
+          "product_name": "Cica (Centella) + Niacinamide Oil Free Moisturizer",
+          "product_url": "https://dot-key.myshopify.com/products/cica-5-niacinamide-oil-free-moisturizer-for-dark-spots-acne-fragrance-free-oily-sensitive-acne-prone-skin"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-Deep-Pore-Cleanser_1_large.jpg?v=1705741985",
+          "product_name": "Deep Pore Clean Foaming Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/deep-pore-clean-milky-foam-cleanser-120ml"
+        },
+        {
+          "cost": 1198.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_88b22e74-83db-45a5-9652-9aa5bc5a048b_large.jpg?v=1747204950",
+          "product_name": "Forever Young Retinol Power Duo",
+          "product_url": "https://dot-key.myshopify.com/products/forever-young-retinol-power-duo"
+        },
+        {
+          "cost": 940.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/PO_d828c97b-7dd0-4d6c-9c22-61433860df3f_large.jpg?v=1747644521",
+          "product_name": "Instant Cooling Watermelon Duo",
+          "product_url": "https://dot-key.myshopify.com/products/instant-cooling-watermelon-duo"
+        },
+        {
+          "cost": 1198.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/retinolcopy_large.jpg?v=1735980978",
+          "product_name": "Retinol + Ceramide Night Cream, Pack of 2",
+          "product_url": "https://dot-key.myshopify.com/products/retinol-ceramide-night-cream-pack-of-2"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_239bbf6f-5e55-4960-b34e-7e28bf0f584a_large.jpg?v=1754040188",
+          "product_name": "Retinol Night Repair Cream with Ceramides",
+          "product_url": "https://dot-key.myshopify.com/products/retinol-ceramide-age-defense-night-cream"
+        },
+        {
+          "cost": 744.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/PO_6f8856f7-dbf6-4ad0-b5c1-036590ac2828_large.jpg?v=1747644701",
+          "product_name": "Cleanse + Moisturize Watermelon Duo",
+          "product_url": "https://dot-key.myshopify.com/products/cleanse-moisturize-watermelon-duo"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1_c05b99e0-c177-4e08-bf58-269833e70161_large.jpg?v=1754041030",
+          "product_name": "Mango Detan Gel Face Wash",
+          "product_url": "https://dot-key.myshopify.com/products/mango-face-wash"
+        },
+        {
+          "cost": 495.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-WM-M_large.jpg?v=1757932175",
+          "product_name": "Watermelon Gel Moisturizer With Hyaluronic",
+          "product_url": "https://dot-key.myshopify.com/products/watermelon-moisturizer-icy-gel"
+        },
+        {
+          "cost": 1788.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0361/8553/8692/files/PO_457cd450-30a9-4b08-b3e3-ea6a428c2f19_large.jpg?v=1747472167",
+          "product_name": "Watermelon Oil Free Skin Combo",
+          "product_url": "https://dot-key.myshopify.com/products/watermelon-oil-free-skin-combo"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 87,
+      "platform_url": "https://aqualogica.in/pages/searchtap-search?q=products",
+      "products": [
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1main.png?v=1758013255&width=1500",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 80g",
+          "product_url": "https://aqualogica.in/products/glow-dewy-sunscreen-with-spf-50-pa-for-uvab-and-blue-light-protection-for-glowing-and-well-protected-skin-50-gm-3"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_89c78852-4ff4-45fa-8654-efc0c97980da.jpg?v=1747637716&width=1200",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Anti Pollution Factor (APF) | UVA/B & Blue Light Protection - 80g",
+          "product_url": "https://aqualogica.in/products/detan-dewy-sunscreen-80-gm"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_9f045f26-21c3-443f-a9cc-cff3ef4313af.jpg?v=1719554597&width=1200",
+          "product_name": "Illuminate + Hydra Gel Moisturizer with Wild Berries & Alpha Arbutin - 200g",
+          "product_url": "https://aqualogica.in/products/illuminate-hydra-gel-moisturizer-200g"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1b_f8cb6cae-382a-4793-94f1-5f627f0dd73f.jpg?v=1719466573&width=1200",
+          "product_name": "Glow+ Hydra Gel Moisturizer with Vitamin C & Papaya - 200 g",
+          "product_url": "https://aqualogica.in/products/glow-hydra-gel-moisturizer-with-vitamin-c-papaya-200-g"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_08950377-b098-4f2f-98c8-ed5483e6e72b.jpg?v=1753856922&width=1500",
+          "product_name": "Refresh+ Sun Kissed Vanilla Perfume Body Mist with Zemea & Hyaluronic Acid - 150 ml",
+          "product_url": "https://aqualogica.in/products/refresh-perfume-body-mist-sun-kissed-vanilla-150ml"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_3ae2ac18-172f-4966-a6aa-64ba8ef37688.jpg?v=1745391094&width=1080",
+          "product_name": "Refresh+ Mid Night Bloom Perfume Body Mist with Zemea & Hyaluronic Acid (150 ml)",
+          "product_url": "https://aqualogica.in/products/aqualogica-perfume-body-mist-150ml-mid-night-bloom"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Mistmenot.jpg?v=1753880617&width=2000",
+          "product_name": "Refresh+ Mist Me Not Set of 3 Perfume Body Mist",
+          "product_url": "https://aqualogica.in/products/refresh-mist-me-not-set-of-3-perfume-body-mist"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/COLOUREDBG_54781015-ca39-4824-b2c1-0ad6763e5493.jpg?v=1722506115&width=1200",
+          "product_name": "Refresh+ On The Go - Set of 3 Perfume Body Mist",
+          "product_url": "https://aqualogica.in/products/refresh-on-the-go-set-of-3-perfume-body-mist"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_1837537e-dbdc-4615-9be1-eaf4aad31a2a.jpg?v=1748960494&width=1200",
+          "product_name": "Radiance Dewy Sunscreen",
+          "product_url": "https://aqualogica.in/products/radiance-dewy-sunscreen-80g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_45eb2c2d-42ab-4f87-91dc-fb9c40271056.jpg?v=1743576217&width=1200",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 80 g",
+          "product_url": "https://aqualogica.in/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-80-g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/6fd403df-fe7-45a9-a78b-222ec97f69__20_a.jpg?v=1701346095&width=2091",
+          "product_name": "Glow+ Concentrate Face Serum 30 ml",
+          "product_url": "https://aqualogica.in/products/glow-concentrate-face-serum-for-skin-brightening-and-glow-with-vitamin-c-papaya-and-hyaluronic-acid-non-sticky-30ml"
+        },
+        {
+          "cost": 649.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_9bf941f9-b04e-4cb2-91cd-a8134e77e64e.jpg?v=1747050989&width=1200",
+          "product_name": "Bright+ Makeup-Set Sunscreen Mist SPF 50+ PA++++ with Blueberry & Kojic Acid",
+          "product_url": "https://aqualogica.in/products/bright-make-up-set-sunscreen-mist-80ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_fee80b77-4164-45a6-9abb-d5fe52965e59.jpg?v=1757943586&width=1503",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 50g",
+          "product_url": "https://aqualogica.in/products/glow-dewy-sunscreen-50g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_bcdcf165-a878-49e4-b910-bb45bc5f3e7c.jpg?v=1747636581&width=1200",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Cherry Tomato & HA - 50 g",
+          "product_url": "https://aqualogica.in/products/detan-dewy-sunscreen-with-spf-50-pa-for-uvab-and-blue-light-protection-for-glowing-and-well-protected-skin-50-gm"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_e1556ac3-eba3-42e7-a71d-6105eac3dd26.jpg?v=1755510780&width=1500",
+          "product_name": "Refresh+ Dewy Floral Kiss Perfume Body Mist with Zemea & Hyaluronic Acid- 150 ml",
+          "product_url": "https://aqualogica.in/products/refresh-perfume-body-mist-dewy-floral-kiss-150ml"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_010e68b1-06ee-430e-977b-9b5a0594d7db.jpg?v=1745391622&width=1080",
+          "product_name": "Refresh+ Cherry Blossom Bloom Perfume Body Mist with Zemea and Hyaluronic Acid 150 ml",
+          "product_url": "https://aqualogica.in/products/perfume-body-mist-150ml-cherry-blossom-bloom"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_9c773e8a-5f97-42cb-aff4-ad49e7076989.jpg?v=1748959100&width=1200",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 50g",
+          "product_url": "https://aqualogica.in/products/radiance-dewy-sunscreen-50g-1"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/2_746b6cc2-61a9-4b14-ac8c-955e49e9f09d.jpg?v=1719309708&width=1200",
+          "product_name": "Refresh+ Sweet Summer Kiss Perfume Body Mist with Zemea and Hyaluronic Acid 150 ml",
+          "product_url": "https://aqualogica.in/products/refresh-perfume-body-mist-sweet-summer-kiss-150ml"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_750c25f5-0610-41b9-be07-b8bb76cc3dd5.jpg?v=1719554320&width=1200",
+          "product_name": "5 Barrier+ Hydra Gel Moisturizer with Avocado & 5 Essential Ceramides - 200 g",
+          "product_url": "https://aqualogica.in/products/barrier-hydra-gel-moisturizer-200g"
+        },
+        {
+          "cost": 699.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/d8a2e5ea-5bfd-4af4-86e-7cc09feb364a__20_a_b4df8b55-b871-4df7-8ed3-1adcc246be57.jpg?v=1701345962&width=705",
+          "product_name": "Hydrate+ Jello Moisturizer 100g",
+          "product_url": "https://aqualogica.in/products/hydrate-gel-moisturiser-with-coconut-water-and-hyaluronic-acid-100-gm"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/46a72227-5da8-4ae6-86a8-5d82d045555__20_a.jpg?v=1701345884&width=1619",
+          "product_name": "Glow+ JellO Moisturizer 50 g",
+          "product_url": "https://aqualogica.in/products/glow-jell-o-moisturiser-with-vitamin-c-and-papaya-for-illuminating-moisturization-and-skin-hydration-non-sticky-50-gm"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_a938da08-e236-4451-94c3-cf8652f0cf2e.jpg?v=1726640760&width=1200",
+          "product_name": "Refresh+ Perfume Body Mist - Ocean Breeze with Zemea & Hyaluronic Acid 150 ml",
+          "product_url": "https://aqualogica.in/products/refresh-ocean-breeze-perfume-body-mist-150ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Shoot_5c12b806-b924-4936-b5e6-57787d2de5ea.jpg?v=1741081717&width=1200",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 50 g",
+          "product_url": "https://aqualogica.in/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-50-g"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_d98c6493-f486-4055-9b9f-febd0c391c06.jpg?v=1748501209&width=1200",
+          "product_name": "Bright+ Hydra Gel Moisturizer with Blueberry & Kojic Acid - 200 g",
+          "product_url": "https://aqualogica.in/products/bright-hydra-gel-moisturizer-200g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/glow_mousse_night_gel_01_1.jpg?v=1701692646&width=800",
+          "product_name": "Glow+ Mousse Night Gel 50g",
+          "product_url": "https://aqualogica.in/products/glow-mousse-night-gel-for-bright-plump-skin-overnight-skin-radiance-recovery-with-papaya-and-vitamin-c-50-gm"
+        },
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Illuminate_-OFM_55112cab-1fb7-48f8-9c8c-9c9a6b1f66df.jpg?v=1723187366&width=1200",
+          "product_name": "Illuminate+ Oil Free Moisturizer with Wild Berries & Alpha Arbutin for Luminous Glow - 100g",
+          "product_url": "https://aqualogica.in/products/illuminate-oil-free-moisturizer-with-wild-berries-and-alpha-arbutin-100g"
+        },
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/2_9c05ad54-f084-4f4d-a698-e37a8a0ed464.jpg?v=1723098278&width=1200",
+          "product_name": "5 Barrier+ Repair Moisturizer with Avocado & 5 Essential Ceramides - 100g",
+          "product_url": "https://aqualogica.in/products/5-barrier-repair-moisturizer-with-avocado-5-essential-ceramides-100g"
+        },
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.1_Photoshoot_98825635-67a8-4b0f-b3db-2bbe21daa6f2.jpg?v=1750660171&width=1200",
+          "product_name": "Bright+ Oil Free Moisturizer",
+          "product_url": "https://aqualogica.in/products/bright-oil-free-moisturizer-100g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_96428c15-dd6b-4055-b8c3-00f0fa00d36b.jpg?v=1728019497&width=1200",
+          "product_name": "Illuminate+ Milk Fluid Moisturizer - 70ml",
+          "product_url": "https://aqualogica.in/products/illuminate-milk-fluid-moisturizer-70ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot.jpg?v=1727948221&width=1200",
+          "product_name": "Glow+ Milk Fluid Moisturizer 70ml",
+          "product_url": "https://aqualogica.in/products/glow-milk-fluid-moisturizer-70ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_1dbf28c5-ba93-4b9f-a4cb-3d6db7037fa7.jpg?v=1728020726&width=1200",
+          "product_name": "5 Barrier+ Milk Fluid Moisturizer - 70 ml",
+          "product_url": "https://aqualogica.in/products/5-barrier-milk-fluid-moisturizer-70ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.7_9ac651b8-636e-4e83-895e-a9e4b04219bb.jpg?v=1758525742&width=1500",
+          "product_name": "Radiance+ Oil Control Fluid Sunscreen for Oily Skin - 50g",
+          "product_url": "https://aqualogica.in/products/radiance-oil-control-fluid-sunscreen-for-oily-skin-50g"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.3_Photoshoot_ca1caeb9-7c4c-4987-b9bc-4762620a04fb.jpg?v=1744010752&width=1200",
+          "product_name": "Bright+ Tone Up Sunscreen 50g",
+          "product_url": "https://aqualogica.in/products/bright-tone-up-sunscreen-50g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_efe2a5c5-3705-40cf-8e55-eac290b434bc.jpg?v=1701348747&width=2315",
+          "product_name": "Hydrate+ Dewy Sunscreen 50g",
+          "product_url": "https://aqualogica.in/products/hydrate-sunscreen-with-coconut-water-and-hyaluronic-acid-50-gm"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.1_Photoshoot_4cb217c5-e951-41f3-aea4-6c12de160359.jpg?v=1743595494&width=1200",
+          "product_name": "Detan+ Oil Balance Fluid Sunscreen for Oily Skin - 50g",
+          "product_url": "https://aqualogica.in/products/detan-oil-balance-fluid-sunscreen-for-oily-skin-50g"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_2d2fd22b-a2e8-43a3-a665-ea26e4ebc2df.jpg?v=1758784609&width=1200",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 30g",
+          "product_url": "https://aqualogica.in/products/radiance-dewy-sunscreen-30g"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_fbb096a2-d097-4f3b-9ef0-26592a476086.jpg?v=1718780805&width=1200",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 30 g",
+          "product_url": "https://aqualogica.in/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-30-g"
+        },
+        {
+          "cost": 749.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/873a62341cff529046719495d09f932784a6a1ab.gif?v=1760344770",
+          "product_name": "0h:45m:52s 4.6 ┃ 133 120 g",
+          "product_url": "https://aqualogica.in/products/refresh-sun-kissed-vanilla-body-care-set"
+        },
+        {
+          "cost": 749.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/873a62341cff529046719495d09f932784a6a1ab.gif?v=1760344770",
+          "product_name": "0h:45m:52s 4.5 ┃ 67 120 g",
+          "product_url": "https://aqualogica.in/products/refresh-body-care-set-sweet-summer-kiss"
+        },
+        {
+          "cost": 898.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/873a62341cff529046719495d09f932784a6a1ab.gif?v=1760344770",
+          "product_name": "0h:45m:52s 4.8 ┃ 90 450ml",
+          "product_url": "https://aqualogica.in/products/hit-refresh-perfume-body-mist-trio"
+        },
+        {
+          "cost": 699.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_38d30bfa-7d00-4c99-986f-c3915f806126.jpg?v=1725364959&width=1200",
+          "product_name": "Vanilla Mist & Illuminate Moisturizer Duo",
+          "product_url": "https://aqualogica.in/products/vanilla-mist-illuminate-moisturizer-duo"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/acf8324d-2df9-450b-8c2-ed540076f60__20_a.jpg?v=1701346066&width=2086",
+          "product_name": "Radiance+ Concentrate Face Serum 30 ml",
+          "product_url": "https://aqualogica.in/products/radiance-plus-concentrate-face-serum-30-ml-fades-acne-marks-and-dark-spots-controls-oil-reduces-enlarged-pores-and-prevent-acne-with-watermelon-and-niacinamide"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/COLOUREDBG.jpg?v=1719215342&width=1200",
+          "product_name": "Glow+ 30X* Vitamin C Hydrating Essence Serum- 50ml",
+          "product_url": "https://aqualogica.in/products/glow-30x-vitamin-c-hydrating-essence-serum"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/2a.jpg?v=1702973615&width=1200",
+          "product_name": "Glow+ Smoothie Face Wash with Papaya & Vitamin C for Glowing Skin - 100ml",
+          "product_url": "https://aqualogica.in/products/glow-smoothie-face-wash-for-deep-cleansing-and-skin-brightening-with-vitamin-c-and-papaya-100-gm-1"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Detan__Smoothie_Face_wash_100ml.jpg?v=1722338309&width=1200",
+          "product_name": "Detan+ Smoothie Face Wash with Cherry Tomato & Glycolic Acid for Tan Removal - 100ml",
+          "product_url": "https://aqualogica.in/products/detan-smoothie-face-wash-100ml-1"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_2e1f8699-985a-4264-9ebe-d63252fcfb91.jpg?v=1702031696&width=1200",
+          "product_name": "Radiance+ Smoothie Face Wash with Watermelon & Niacinamide for Clear & Oil-Free Skin - 100ml",
+          "product_url": "https://aqualogica.in/products/radiance-smoothie-face-wash-50g"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/illuminate_smoothie_fw-07.jpg?v=1701345622&width=1200",
+          "product_name": "IIIuminate+ Smoothie Face Wash with Wild Berries & Alpha Arbutin for Luminous Glow - 100ml",
+          "product_url": "https://aqualogica.in/products/illuminate-smoothie-face-wash-with-wild-berries-and-alpha-arbutin-100ml"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.3_Photoshoot_e4945968-abc6-4c24-aae0-00a96f48fef1.jpg?v=1738914725&width=1200",
+          "product_name": "Bright+ Smoothie Face Wash 100ml",
+          "product_url": "https://aqualogica.in/products/bright-smoothie-face-wash-100ml"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_e4d357f4-6628-4911-a7b8-589da9c91e4c.jpg?v=1710915543&width=1200",
+          "product_name": "5 Barrier+ Repair Gentle Cleanser with Avocado & 5 Essential Ceramides - 100 ml",
+          "product_url": "https://aqualogica.in/products/5-barrier-repair-gentle-cleanser-with-avocado-5-essential-ceramides-100-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_1.jpg?v=1702970179&width=2892",
+          "product_name": "Aqualogica Glow+ Mousse Hydrating Foam Cleanser",
+          "product_url": "https://aqualogica.in/products/aqualogica-glow-mousse-hydrating-foam-cleanser-100-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_2.jpg?v=1702970605&width=1200",
+          "product_name": "Detan+ Mousse Hydrating Foam Cleanser- 100 ml",
+          "product_url": "https://aqualogica.in/products/detan-mousse-hydrating-foam-cleanser-1oo-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Shoot_64edc2f4-9053-4345-80eb-3bf0830f4792.jpg?v=1714456556&width=1200",
+          "product_name": "Radiance+ Silky Body Lotion 200 ml",
+          "product_url": "https://aqualogica.in/products/radiance-silky-body-lotion-200-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/348cb0b6-2f4c-45dd-9b9b-04efe905559b_1_201_a_1.jpg?v=1701692359&width=2502",
+          "product_name": "Radiance+ Squishy Shower Gel with Watermelon & Niacinamide for Radiant Skin - 250ml",
+          "product_url": "https://aqualogica.in/products/radiance-squishy-shower-gel"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/hydrate_refresh_toning_mist_100_ml.jpg?v=1701692124&width=2850",
+          "product_name": "Hydrate+ Refresh Toning Mist, 100 ml",
+          "product_url": "https://aqualogica.in/products/hydrate-refresh-toning-mist-100-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1Shoot.jpg?v=1709557732&width=1200",
+          "product_name": "Detan+ Gentle Melt Exfoliator",
+          "product_url": "https://aqualogica.in/products/detan-gentle-melt-exfoliator"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Crimson_Candy_Plump__-Lip_balm.jpg?v=1722338065&width=1200",
+          "product_name": "Crimson Candy Plump+ Luscious Tinted SPF 20+ Lip Balm with Watermelon & Hyaluronic Acid - 10g",
+          "product_url": "https://aqualogica.in/products/crimson-candy-plump-luscious-tinted-lip-balm-with-watermelon-and-hyaluronic-acid-10g"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Pink_Sorbet_Plump__Lip_balm.jpg?v=1722338000&width=1200",
+          "product_name": "Pink Sorbet Plump+ Luscious Tinted SPF 20+ Lip Balm with Berries & Hyaluronic Acid - 10g",
+          "product_url": "https://aqualogica.in/products/pink-sorbet-plump-luscious-tinted-lip-balm-with-berries-and-hyaluronic-acid-10g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_fee80b77-4164-45a6-9abb-d5fe52965e59_large.jpg?v=1757943586",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-50g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1main_large.png?v=1758013255",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 80g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-with-spf-50-pa-for-uvab-and-blue-light-protection-for-glowing-and-well-protected-skin-50-gm-3"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_9c773e8a-5f97-42cb-aff4-ad49e7076989_large.jpg?v=1748959100",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-dewy-sunscreen-50g-1"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_bcdcf165-a878-49e4-b910-bb45bc5f3e7c_large.jpg?v=1747636581",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Cherry Tomato & HA - 50 g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-with-spf-50-pa-for-uvab-and-blue-light-protection-for-glowing-and-well-protected-skin-50-gm"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_89c78852-4ff4-45fa-8654-efc0c97980da_large.jpg?v=1747637716",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Anti Pollution Factor (APF) | UVA/B & Blue Light Protection - 80g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-80-gm"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_1837537e-dbdc-4615-9be1-eaf4aad31a2a_large.jpg?v=1748960494",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 80g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-dewy-sunscreen-80g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1_efe2a5c5-3705-40cf-8e55-eac290b434bc_large.jpg?v=1701348747",
+          "product_name": "Hydrate+ Dewy Sunscreen 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/hydrate-sunscreen-with-coconut-water-and-hyaluronic-acid-50-gm"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_45eb2c2d-42ab-4f87-91dc-fb9c40271056_large.jpg?v=1743576217",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 80 g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-80-g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Shoot_5c12b806-b924-4936-b5e6-57787d2de5ea_large.jpg?v=1741081717",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 50 g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-50-g"
+        },
+        {
+          "cost": 629.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_87b1607d-c9e5-46f7-9b50-e9894b2007c3_large.jpg?v=1746694745",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 50g (Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-50g-pack-of-2"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/shoot_29167885-caa0-4766-8586-e32f3692319b_large.jpg?v=1730720056",
+          "product_name": "5 Barrier+ Repair Sunscreen with Avocado & 5 Essential Ceramides 80 gm",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/barrier-repair-sunscreen-80g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/8_7719d671-b3e8-43d1-bd48-7c8371f6605a_large.jpg?v=1722337923",
+          "product_name": "Glow+ Dewy Sunstick with SPF 50+ & PA++++ for Easy Reapplication & No White Cast - 20g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunstick"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_2d2fd22b-a2e8-43a3-a665-ea26e4ebc2df_large.jpg?v=1758784609",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 30g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-dewy-sunscreen-30g"
+        },
+        {
+          "cost": 718.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_12_large.jpg?v=1751008824",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 80g (Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-80g-pack-of-2"
+        },
+        {
+          "cost": 876.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_1_large.jpg?v=1746696787",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 50g (Pack of 3)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-50g-pack-of-3"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1.3_Photoshoot_ca1caeb9-7c4c-4987-b9bc-4762620a04fb_large.jpg?v=1744010752",
+          "product_name": "Bright+ Tone Up Sunscreen 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/bright-tone-up-sunscreen-50g"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/shoot_fbb096a2-d097-4f3b-9ef0-26592a476086_large.jpg?v=1718780805",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 30 g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-30-g"
+        },
+        {
+          "cost": 524.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_7424ed45-97ad-4f58-ab0d-abeb0b2dbe8d_large.jpg?v=1750929594",
+          "product_name": "Everyday Glow+ Combo",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/everyday-glow-combo"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1.7_9ac651b8-636e-4e83-895e-a9e4b04219bb_large.jpg?v=1758525742",
+          "product_name": "Radiance+ Oil Control Fluid Sunscreen for Oily Skin - 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-oil-control-fluid-sunscreen-for-oily-skin-50g"
+        },
+        {
+          "cost": 629.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_34_large.jpg?v=1759999706",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 50g(Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-dewy-sunscreen-50g-pack-of-2"
+        },
+        {
+          "cost": 559.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Glow__infused_water_sunscreen_large.jpg?v=1722337681",
+          "product_name": "Glow+ Infused Water Sunscreen with Papaya & Vitamin C",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-infused-water-sunscreen-with-papaya-vitamin-c"
+        },
+        {
+          "cost": 719.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/shoot_24954504-0142-42e4-92bc-557f790a4223_large.jpg?v=1723028013",
+          "product_name": "Glow+ Infused Tinted Sunscreen With Papaya & Vitamin C",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-infused-tinted-sunscreen-with-papaya-vitamin-c"
+        },
+        {
+          "cost": 629.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_15_large.jpg?v=1752472421",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Cherry Tomato & HA - 50 g (Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-50g-pack-of-2"
+        },
+        {
+          "cost": 699.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/shoot._large.jpg?v=1714457595",
+          "product_name": "Glow+ Dewy Sunscreen 125g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-125g"
+        },
+        {
+          "cost": 1077.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_e90a3de8-c7e3-442e-aacf-6adb6a5644bb_large.jpg?v=1750929521",
+          "product_name": "Glow+ Day & Night Combo",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-day-night-combo"
+        },
+        {
+          "cost": 649.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_9bf941f9-b04e-4cb2-91cd-a8134e77e64e_large.jpg?v=1747050989",
+          "product_name": "Bright+ Makeup-Set Sunscreen Mist SPF 50+ PA++++ with Blueberry & Kojic Acid",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/bright-make-up-set-sunscreen-mist-80ml"
+        },
+        {
+          "cost": 699.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Artboard2_large.jpg?v=1717410936",
+          "product_name": "Detan+ Dewy Sunscreen, 125g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-125g"
+        },
+        {
+          "cost": 524.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_18_large.jpg?v=1753092585",
+          "product_name": "Detan+ Brighter Skin Combo",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-brighter-skin-combo"
+        },
+        {
+          "cost": 718.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_16_large.jpg?v=1752474089",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Cherry Tomato & HA - 80 g (Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-80g-pack-of-2"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1.1_Photoshoot_4cb217c5-e951-41f3-aea4-6c12de160359_large.jpg?v=1743595494",
+          "product_name": "Detan+ Oil Balance Fluid Sunscreen for Oily Skin - 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-oil-balance-fluid-sunscreen-for-oily-skin-50g"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "jsonld",
+      "num_products": 10,
+      "platform_url": "https://www.myntra.com/products",
+      "products": [
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "MuscleBlaze Unisex Brand Logo Printed Round Neck Compression T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/muscleblaze/muscleblaze-unisex-brand-logo-printed-round-neck-compression-t-shirt/32635652/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "HM Men White Solid Cotton Pure Cotton T-shirt Regular Fit",
+          "product_url": "https://www.myntra.com/tshirts/h%26m/hm-men-white-solid-cotton-pure-cotton-t-shirt-regular-fit/11468714/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "HM Men Black Solid Cotton Pure Cotton T-shirt Regular Fit",
+          "product_url": "https://www.myntra.com/tshirts/h%26m/hm-men-black-solid-cotton-pure-cotton-t-shirt-regular-fit/11468732/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Bushirt Men Cotton T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/bushirt/bushirt-men-cotton-t-shirt/31228260/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "BAESD Unisex Twistform Twinny Zone Pack Of 2 GoodBad Printed Cotton Oversized T-shirts",
+          "product_url": "https://www.myntra.com/tshirts/baesd/baesd-unisex-twistform-twinny-zone-pack-of-2-goodbad-printed-cotton-oversized-t-shirts/33319640/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Rigo Unisex Typography Printed Round Neck Cotton Oversized T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/rigo/rigo-unisex-typography-printed-round-neck-cotton-oversized-t-shirt/33281220/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "BROWN BROTHERS Unisex Pure Cotton Round Neck Short Sleeves Oversized Pockets T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/brown+brothers/brown-brothers-unisex-pure-cotton-round-neck-short-sleeves-oversized-pockets-t-shirt/29027526/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "H&M Regular Fit Round-Neck T-Shirt",
+          "product_url": "https://www.myntra.com/tshirts/h%26m/hm-regular-fit-round-neck-t-shirt/35737936/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "BAESD Unisex 2 Drop-Shoulder Sleeves Twistform T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/baesd/baesd-unisex-2-drop-shoulder-sleeves-twistform-t-shirt/33319634/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "MaverIQ Men White Cotton Printed T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/maveriq/maveriq-men-white-cotton-printed-t-shirt/36592217/buy"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 87,
+      "platform_url": "https://aqualogica.in/pages/searchtap-search?q=products",
+      "products": [
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1main.png?v=1758013255&width=1500",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 80g",
+          "product_url": "https://aqualogica.in/products/glow-dewy-sunscreen-with-spf-50-pa-for-uvab-and-blue-light-protection-for-glowing-and-well-protected-skin-50-gm-3"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_89c78852-4ff4-45fa-8654-efc0c97980da.jpg?v=1747637716&width=1200",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Anti Pollution Factor (APF) | UVA/B & Blue Light Protection - 80g",
+          "product_url": "https://aqualogica.in/products/detan-dewy-sunscreen-80-gm"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_9f045f26-21c3-443f-a9cc-cff3ef4313af.jpg?v=1719554597&width=1200",
+          "product_name": "Illuminate + Hydra Gel Moisturizer with Wild Berries & Alpha Arbutin - 200g",
+          "product_url": "https://aqualogica.in/products/illuminate-hydra-gel-moisturizer-200g"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1b_f8cb6cae-382a-4793-94f1-5f627f0dd73f.jpg?v=1719466573&width=1200",
+          "product_name": "Glow+ Hydra Gel Moisturizer with Vitamin C & Papaya - 200 g",
+          "product_url": "https://aqualogica.in/products/glow-hydra-gel-moisturizer-with-vitamin-c-papaya-200-g"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_08950377-b098-4f2f-98c8-ed5483e6e72b.jpg?v=1753856922&width=1500",
+          "product_name": "Refresh+ Sun Kissed Vanilla Perfume Body Mist with Zemea & Hyaluronic Acid - 150 ml",
+          "product_url": "https://aqualogica.in/products/refresh-perfume-body-mist-sun-kissed-vanilla-150ml"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_3ae2ac18-172f-4966-a6aa-64ba8ef37688.jpg?v=1745391094&width=1080",
+          "product_name": "Refresh+ Mid Night Bloom Perfume Body Mist with Zemea & Hyaluronic Acid (150 ml)",
+          "product_url": "https://aqualogica.in/products/aqualogica-perfume-body-mist-150ml-mid-night-bloom"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Mistmenot.jpg?v=1753880617&width=2000",
+          "product_name": "Refresh+ Mist Me Not Set of 3 Perfume Body Mist",
+          "product_url": "https://aqualogica.in/products/refresh-mist-me-not-set-of-3-perfume-body-mist"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/COLOUREDBG_54781015-ca39-4824-b2c1-0ad6763e5493.jpg?v=1722506115&width=1200",
+          "product_name": "Refresh+ On The Go - Set of 3 Perfume Body Mist",
+          "product_url": "https://aqualogica.in/products/refresh-on-the-go-set-of-3-perfume-body-mist"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_1837537e-dbdc-4615-9be1-eaf4aad31a2a.jpg?v=1748960494&width=1200",
+          "product_name": "Radiance Dewy Sunscreen",
+          "product_url": "https://aqualogica.in/products/radiance-dewy-sunscreen-80g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_45eb2c2d-42ab-4f87-91dc-fb9c40271056.jpg?v=1743576217&width=1200",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 80 g",
+          "product_url": "https://aqualogica.in/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-80-g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/6fd403df-fe7-45a9-a78b-222ec97f69__20_a.jpg?v=1701346095&width=2091",
+          "product_name": "Glow+ Concentrate Face Serum 30 ml",
+          "product_url": "https://aqualogica.in/products/glow-concentrate-face-serum-for-skin-brightening-and-glow-with-vitamin-c-papaya-and-hyaluronic-acid-non-sticky-30ml"
+        },
+        {
+          "cost": 649.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_9bf941f9-b04e-4cb2-91cd-a8134e77e64e.jpg?v=1747050989&width=1200",
+          "product_name": "Bright+ Makeup-Set Sunscreen Mist SPF 50+ PA++++ with Blueberry & Kojic Acid",
+          "product_url": "https://aqualogica.in/products/bright-make-up-set-sunscreen-mist-80ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_fee80b77-4164-45a6-9abb-d5fe52965e59.jpg?v=1757943586&width=1503",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 50g",
+          "product_url": "https://aqualogica.in/products/glow-dewy-sunscreen-50g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_bcdcf165-a878-49e4-b910-bb45bc5f3e7c.jpg?v=1747636581&width=1200",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Cherry Tomato & HA - 50 g",
+          "product_url": "https://aqualogica.in/products/detan-dewy-sunscreen-with-spf-50-pa-for-uvab-and-blue-light-protection-for-glowing-and-well-protected-skin-50-gm"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_e1556ac3-eba3-42e7-a71d-6105eac3dd26.jpg?v=1755510780&width=1500",
+          "product_name": "Refresh+ Dewy Floral Kiss Perfume Body Mist with Zemea & Hyaluronic Acid- 150 ml",
+          "product_url": "https://aqualogica.in/products/refresh-perfume-body-mist-dewy-floral-kiss-150ml"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_010e68b1-06ee-430e-977b-9b5a0594d7db.jpg?v=1745391622&width=1080",
+          "product_name": "Refresh+ Cherry Blossom Bloom Perfume Body Mist with Zemea and Hyaluronic Acid 150 ml",
+          "product_url": "https://aqualogica.in/products/perfume-body-mist-150ml-cherry-blossom-bloom"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_9c773e8a-5f97-42cb-aff4-ad49e7076989.jpg?v=1748959100&width=1200",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 50g",
+          "product_url": "https://aqualogica.in/products/radiance-dewy-sunscreen-50g-1"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/2_746b6cc2-61a9-4b14-ac8c-955e49e9f09d.jpg?v=1719309708&width=1200",
+          "product_name": "Refresh+ Sweet Summer Kiss Perfume Body Mist with Zemea and Hyaluronic Acid 150 ml",
+          "product_url": "https://aqualogica.in/products/refresh-perfume-body-mist-sweet-summer-kiss-150ml"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_750c25f5-0610-41b9-be07-b8bb76cc3dd5.jpg?v=1719554320&width=1200",
+          "product_name": "5 Barrier+ Hydra Gel Moisturizer with Avocado & 5 Essential Ceramides - 200 g",
+          "product_url": "https://aqualogica.in/products/barrier-hydra-gel-moisturizer-200g"
+        },
+        {
+          "cost": 699.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/d8a2e5ea-5bfd-4af4-86e-7cc09feb364a__20_a_b4df8b55-b871-4df7-8ed3-1adcc246be57.jpg?v=1701345962&width=705",
+          "product_name": "Hydrate+ Jello Moisturizer 100g",
+          "product_url": "https://aqualogica.in/products/hydrate-gel-moisturiser-with-coconut-water-and-hyaluronic-acid-100-gm"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/46a72227-5da8-4ae6-86a8-5d82d045555__20_a.jpg?v=1701345884&width=1619",
+          "product_name": "Glow+ JellO Moisturizer 50 g",
+          "product_url": "https://aqualogica.in/products/glow-jell-o-moisturiser-with-vitamin-c-and-papaya-for-illuminating-moisturization-and-skin-hydration-non-sticky-50-gm"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_a938da08-e236-4451-94c3-cf8652f0cf2e.jpg?v=1726640760&width=1200",
+          "product_name": "Refresh+ Perfume Body Mist - Ocean Breeze with Zemea & Hyaluronic Acid 150 ml",
+          "product_url": "https://aqualogica.in/products/refresh-ocean-breeze-perfume-body-mist-150ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Shoot_5c12b806-b924-4936-b5e6-57787d2de5ea.jpg?v=1741081717&width=1200",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 50 g",
+          "product_url": "https://aqualogica.in/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-50-g"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_d98c6493-f486-4055-9b9f-febd0c391c06.jpg?v=1748501209&width=1200",
+          "product_name": "Bright+ Hydra Gel Moisturizer with Blueberry & Kojic Acid - 200 g",
+          "product_url": "https://aqualogica.in/products/bright-hydra-gel-moisturizer-200g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/glow_mousse_night_gel_01_1.jpg?v=1701692646&width=800",
+          "product_name": "Glow+ Mousse Night Gel 50g",
+          "product_url": "https://aqualogica.in/products/glow-mousse-night-gel-for-bright-plump-skin-overnight-skin-radiance-recovery-with-papaya-and-vitamin-c-50-gm"
+        },
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Illuminate_-OFM_55112cab-1fb7-48f8-9c8c-9c9a6b1f66df.jpg?v=1723187366&width=1200",
+          "product_name": "Illuminate+ Oil Free Moisturizer with Wild Berries & Alpha Arbutin for Luminous Glow - 100g",
+          "product_url": "https://aqualogica.in/products/illuminate-oil-free-moisturizer-with-wild-berries-and-alpha-arbutin-100g"
+        },
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/2_9c05ad54-f084-4f4d-a698-e37a8a0ed464.jpg?v=1723098278&width=1200",
+          "product_name": "5 Barrier+ Repair Moisturizer with Avocado & 5 Essential Ceramides - 100g",
+          "product_url": "https://aqualogica.in/products/5-barrier-repair-moisturizer-with-avocado-5-essential-ceramides-100g"
+        },
+        {
+          "cost": 399.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.1_Photoshoot_98825635-67a8-4b0f-b3db-2bbe21daa6f2.jpg?v=1750660171&width=1200",
+          "product_name": "Bright+ Oil Free Moisturizer",
+          "product_url": "https://aqualogica.in/products/bright-oil-free-moisturizer-100g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_96428c15-dd6b-4055-b8c3-00f0fa00d36b.jpg?v=1728019497&width=1200",
+          "product_name": "Illuminate+ Milk Fluid Moisturizer - 70ml",
+          "product_url": "https://aqualogica.in/products/illuminate-milk-fluid-moisturizer-70ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot.jpg?v=1727948221&width=1200",
+          "product_name": "Glow+ Milk Fluid Moisturizer 70ml",
+          "product_url": "https://aqualogica.in/products/glow-milk-fluid-moisturizer-70ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_1dbf28c5-ba93-4b9f-a4cb-3d6db7037fa7.jpg?v=1728020726&width=1200",
+          "product_name": "5 Barrier+ Milk Fluid Moisturizer - 70 ml",
+          "product_url": "https://aqualogica.in/products/5-barrier-milk-fluid-moisturizer-70ml"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.7_9ac651b8-636e-4e83-895e-a9e4b04219bb.jpg?v=1758525742&width=1500",
+          "product_name": "Radiance+ Oil Control Fluid Sunscreen for Oily Skin - 50g",
+          "product_url": "https://aqualogica.in/products/radiance-oil-control-fluid-sunscreen-for-oily-skin-50g"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.3_Photoshoot_ca1caeb9-7c4c-4987-b9bc-4762620a04fb.jpg?v=1744010752&width=1200",
+          "product_name": "Bright+ Tone Up Sunscreen 50g",
+          "product_url": "https://aqualogica.in/products/bright-tone-up-sunscreen-50g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_efe2a5c5-3705-40cf-8e55-eac290b434bc.jpg?v=1701348747&width=2315",
+          "product_name": "Hydrate+ Dewy Sunscreen 50g",
+          "product_url": "https://aqualogica.in/products/hydrate-sunscreen-with-coconut-water-and-hyaluronic-acid-50-gm"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.1_Photoshoot_4cb217c5-e951-41f3-aea4-6c12de160359.jpg?v=1743595494&width=1200",
+          "product_name": "Detan+ Oil Balance Fluid Sunscreen for Oily Skin - 50g",
+          "product_url": "https://aqualogica.in/products/detan-oil-balance-fluid-sunscreen-for-oily-skin-50g"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Photoshoot_2d2fd22b-a2e8-43a3-a665-ea26e4ebc2df.jpg?v=1758784609&width=1200",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 30g",
+          "product_url": "https://aqualogica.in/products/radiance-dewy-sunscreen-30g"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_fbb096a2-d097-4f3b-9ef0-26592a476086.jpg?v=1718780805&width=1200",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 30 g",
+          "product_url": "https://aqualogica.in/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-30-g"
+        },
+        {
+          "cost": 749.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/873a62341cff529046719495d09f932784a6a1ab.gif?v=1760344770",
+          "product_name": "0h:45m:52s 4.6 ┃ 133 120 g",
+          "product_url": "https://aqualogica.in/products/refresh-sun-kissed-vanilla-body-care-set"
+        },
+        {
+          "cost": 749.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/873a62341cff529046719495d09f932784a6a1ab.gif?v=1760344770",
+          "product_name": "0h:45m:52s 4.5 ┃ 67 120 g",
+          "product_url": "https://aqualogica.in/products/refresh-body-care-set-sweet-summer-kiss"
+        },
+        {
+          "cost": 898.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/873a62341cff529046719495d09f932784a6a1ab.gif?v=1760344770",
+          "product_name": "0h:45m:52s 4.8 ┃ 90 450ml",
+          "product_url": "https://aqualogica.in/products/hit-refresh-perfume-body-mist-trio"
+        },
+        {
+          "cost": 699.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_38d30bfa-7d00-4c99-986f-c3915f806126.jpg?v=1725364959&width=1200",
+          "product_name": "Vanilla Mist & Illuminate Moisturizer Duo",
+          "product_url": "https://aqualogica.in/products/vanilla-mist-illuminate-moisturizer-duo"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/acf8324d-2df9-450b-8c2-ed540076f60__20_a.jpg?v=1701346066&width=2086",
+          "product_name": "Radiance+ Concentrate Face Serum 30 ml",
+          "product_url": "https://aqualogica.in/products/radiance-plus-concentrate-face-serum-30-ml-fades-acne-marks-and-dark-spots-controls-oil-reduces-enlarged-pores-and-prevent-acne-with-watermelon-and-niacinamide"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/COLOUREDBG.jpg?v=1719215342&width=1200",
+          "product_name": "Glow+ 30X* Vitamin C Hydrating Essence Serum- 50ml",
+          "product_url": "https://aqualogica.in/products/glow-30x-vitamin-c-hydrating-essence-serum"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/2a.jpg?v=1702973615&width=1200",
+          "product_name": "Glow+ Smoothie Face Wash with Papaya & Vitamin C for Glowing Skin - 100ml",
+          "product_url": "https://aqualogica.in/products/glow-smoothie-face-wash-for-deep-cleansing-and-skin-brightening-with-vitamin-c-and-papaya-100-gm-1"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Detan__Smoothie_Face_wash_100ml.jpg?v=1722338309&width=1200",
+          "product_name": "Detan+ Smoothie Face Wash with Cherry Tomato & Glycolic Acid for Tan Removal - 100ml",
+          "product_url": "https://aqualogica.in/products/detan-smoothie-face-wash-100ml-1"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1_2e1f8699-985a-4264-9ebe-d63252fcfb91.jpg?v=1702031696&width=1200",
+          "product_name": "Radiance+ Smoothie Face Wash with Watermelon & Niacinamide for Clear & Oil-Free Skin - 100ml",
+          "product_url": "https://aqualogica.in/products/radiance-smoothie-face-wash-50g"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/illuminate_smoothie_fw-07.jpg?v=1701345622&width=1200",
+          "product_name": "IIIuminate+ Smoothie Face Wash with Wild Berries & Alpha Arbutin for Luminous Glow - 100ml",
+          "product_url": "https://aqualogica.in/products/illuminate-smoothie-face-wash-with-wild-berries-and-alpha-arbutin-100ml"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1.3_Photoshoot_e4945968-abc6-4c24-aae0-00a96f48fef1.jpg?v=1738914725&width=1200",
+          "product_name": "Bright+ Smoothie Face Wash 100ml",
+          "product_url": "https://aqualogica.in/products/bright-smoothie-face-wash-100ml"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_e4d357f4-6628-4911-a7b8-589da9c91e4c.jpg?v=1710915543&width=1200",
+          "product_name": "5 Barrier+ Repair Gentle Cleanser with Avocado & 5 Essential Ceramides - 100 ml",
+          "product_url": "https://aqualogica.in/products/5-barrier-repair-gentle-cleanser-with-avocado-5-essential-ceramides-100-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_1.jpg?v=1702970179&width=2892",
+          "product_name": "Aqualogica Glow+ Mousse Hydrating Foam Cleanser",
+          "product_url": "https://aqualogica.in/products/aqualogica-glow-mousse-hydrating-foam-cleanser-100-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/shoot_2.jpg?v=1702970605&width=1200",
+          "product_name": "Detan+ Mousse Hydrating Foam Cleanser- 100 ml",
+          "product_url": "https://aqualogica.in/products/detan-mousse-hydrating-foam-cleanser-1oo-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Shoot_64edc2f4-9053-4345-80eb-3bf0830f4792.jpg?v=1714456556&width=1200",
+          "product_name": "Radiance+ Silky Body Lotion 200 ml",
+          "product_url": "https://aqualogica.in/products/radiance-silky-body-lotion-200-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/348cb0b6-2f4c-45dd-9b9b-04efe905559b_1_201_a_1.jpg?v=1701692359&width=2502",
+          "product_name": "Radiance+ Squishy Shower Gel with Watermelon & Niacinamide for Radiant Skin - 250ml",
+          "product_url": "https://aqualogica.in/products/radiance-squishy-shower-gel"
+        },
+        {
+          "cost": 249.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/products/hydrate_refresh_toning_mist_100_ml.jpg?v=1701692124&width=2850",
+          "product_name": "Hydrate+ Refresh Toning Mist, 100 ml",
+          "product_url": "https://aqualogica.in/products/hydrate-refresh-toning-mist-100-ml"
+        },
+        {
+          "cost": 349.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/1Shoot.jpg?v=1709557732&width=1200",
+          "product_name": "Detan+ Gentle Melt Exfoliator",
+          "product_url": "https://aqualogica.in/products/detan-gentle-melt-exfoliator"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Crimson_Candy_Plump__-Lip_balm.jpg?v=1722338065&width=1200",
+          "product_name": "Crimson Candy Plump+ Luscious Tinted SPF 20+ Lip Balm with Watermelon & Hyaluronic Acid - 10g",
+          "product_url": "https://aqualogica.in/products/crimson-candy-plump-luscious-tinted-lip-balm-with-watermelon-and-hyaluronic-acid-10g"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://aqualogica.in/cdn/shop/files/Pink_Sorbet_Plump__Lip_balm.jpg?v=1722338000&width=1200",
+          "product_name": "Pink Sorbet Plump+ Luscious Tinted SPF 20+ Lip Balm with Berries & Hyaluronic Acid - 10g",
+          "product_url": "https://aqualogica.in/products/pink-sorbet-plump-luscious-tinted-lip-balm-with-berries-and-hyaluronic-acid-10g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_fee80b77-4164-45a6-9abb-d5fe52965e59_large.jpg?v=1757943586",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-50g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1main_large.png?v=1758013255",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 80g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-with-spf-50-pa-for-uvab-and-blue-light-protection-for-glowing-and-well-protected-skin-50-gm-3"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_9c773e8a-5f97-42cb-aff4-ad49e7076989_large.jpg?v=1748959100",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-dewy-sunscreen-50g-1"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_bcdcf165-a878-49e4-b910-bb45bc5f3e7c_large.jpg?v=1747636581",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Cherry Tomato & HA - 50 g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-with-spf-50-pa-for-uvab-and-blue-light-protection-for-glowing-and-well-protected-skin-50-gm"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_89c78852-4ff4-45fa-8654-efc0c97980da_large.jpg?v=1747637716",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Anti Pollution Factor (APF) | UVA/B & Blue Light Protection - 80g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-80-gm"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_1837537e-dbdc-4615-9be1-eaf4aad31a2a_large.jpg?v=1748960494",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 80g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-dewy-sunscreen-80g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1_efe2a5c5-3705-40cf-8e55-eac290b434bc_large.jpg?v=1701348747",
+          "product_name": "Hydrate+ Dewy Sunscreen 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/hydrate-sunscreen-with-coconut-water-and-hyaluronic-acid-50-gm"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_45eb2c2d-42ab-4f87-91dc-fb9c40271056_large.jpg?v=1743576217",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 80 g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-80-g"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Shoot_5c12b806-b924-4936-b5e6-57787d2de5ea_large.jpg?v=1741081717",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 50 g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-50-g"
+        },
+        {
+          "cost": 629.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_87b1607d-c9e5-46f7-9b50-e9894b2007c3_large.jpg?v=1746694745",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 50g (Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-50g-pack-of-2"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/shoot_29167885-caa0-4766-8586-e32f3692319b_large.jpg?v=1730720056",
+          "product_name": "5 Barrier+ Repair Sunscreen with Avocado & 5 Essential Ceramides 80 gm",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/barrier-repair-sunscreen-80g"
+        },
+        {
+          "cost": 599.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/8_7719d671-b3e8-43d1-bd48-7c8371f6605a_large.jpg?v=1722337923",
+          "product_name": "Glow+ Dewy Sunstick with SPF 50+ & PA++++ for Easy Reapplication & No White Cast - 20g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunstick"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_2d2fd22b-a2e8-43a3-a665-ea26e4ebc2df_large.jpg?v=1758784609",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 30g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-dewy-sunscreen-30g"
+        },
+        {
+          "cost": 718.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_12_large.jpg?v=1751008824",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 80g (Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-80g-pack-of-2"
+        },
+        {
+          "cost": 876.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_1_large.jpg?v=1746696787",
+          "product_name": "Glow+ Dewy Sunscreen Gel In-Vivo Tested SPF 50+ PA++++ with Papaya & Vitamin C - 50g (Pack of 3)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-50g-pack-of-3"
+        },
+        {
+          "cost": 499.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1.3_Photoshoot_ca1caeb9-7c4c-4987-b9bc-4762620a04fb_large.jpg?v=1744010752",
+          "product_name": "Bright+ Tone Up Sunscreen 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/bright-tone-up-sunscreen-50g"
+        },
+        {
+          "cost": 299.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/shoot_fbb096a2-d097-4f3b-9ef0-26592a476086_large.jpg?v=1718780805",
+          "product_name": "Illuminate+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Wild Berries & Alpha Arbutin - 30 g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/illuminate-dewy-sunscreen-spf-50-pa-with-wild-berries-alpha-arbutin-30-g"
+        },
+        {
+          "cost": 524.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_7424ed45-97ad-4f58-ab0d-abeb0b2dbe8d_large.jpg?v=1750929594",
+          "product_name": "Everyday Glow+ Combo",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/everyday-glow-combo"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1.7_9ac651b8-636e-4e83-895e-a9e4b04219bb_large.jpg?v=1758525742",
+          "product_name": "Radiance+ Oil Control Fluid Sunscreen for Oily Skin - 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-oil-control-fluid-sunscreen-for-oily-skin-50g"
+        },
+        {
+          "cost": 629.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_34_large.jpg?v=1759999706",
+          "product_name": "Radiance+ Dewy Sunscreen In-Vivo Tested with Watermelon & Niacinamide with SPF 50 & PA++++ - 50g(Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/radiance-dewy-sunscreen-50g-pack-of-2"
+        },
+        {
+          "cost": 559.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Glow__infused_water_sunscreen_large.jpg?v=1722337681",
+          "product_name": "Glow+ Infused Water Sunscreen with Papaya & Vitamin C",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-infused-water-sunscreen-with-papaya-vitamin-c"
+        },
+        {
+          "cost": 719.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/shoot_24954504-0142-42e4-92bc-557f790a4223_large.jpg?v=1723028013",
+          "product_name": "Glow+ Infused Tinted Sunscreen With Papaya & Vitamin C",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-infused-tinted-sunscreen-with-papaya-vitamin-c"
+        },
+        {
+          "cost": 629.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_15_large.jpg?v=1752472421",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Cherry Tomato & HA - 50 g (Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-50g-pack-of-2"
+        },
+        {
+          "cost": 699.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/shoot._large.jpg?v=1714457595",
+          "product_name": "Glow+ Dewy Sunscreen 125g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-dewy-sunscreen-125g"
+        },
+        {
+          "cost": 1077.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_e90a3de8-c7e3-442e-aacf-6adb6a5644bb_large.jpg?v=1750929521",
+          "product_name": "Glow+ Day & Night Combo",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/glow-day-night-combo"
+        },
+        {
+          "cost": 649.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Photoshoot_9bf941f9-b04e-4cb2-91cd-a8134e77e64e_large.jpg?v=1747050989",
+          "product_name": "Bright+ Makeup-Set Sunscreen Mist SPF 50+ PA++++ with Blueberry & Kojic Acid",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/bright-make-up-set-sunscreen-mist-80ml"
+        },
+        {
+          "cost": 699.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/Artboard2_large.jpg?v=1717410936",
+          "product_name": "Detan+ Dewy Sunscreen, 125g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-125g"
+        },
+        {
+          "cost": 524.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_18_large.jpg?v=1753092585",
+          "product_name": "Detan+ Brighter Skin Combo",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-brighter-skin-combo"
+        },
+        {
+          "cost": 718.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/FOP_16_large.jpg?v=1752474089",
+          "product_name": "Detan+ Dewy Sunscreen In-Vivo Tested SPF 50+ PA++++ with Cherry Tomato & HA - 80 g (Pack of 2)",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-dewy-sunscreen-80g-pack-of-2"
+        },
+        {
+          "cost": 449.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0670/3287/5233/files/1.1_Photoshoot_4cb217c5-e951-41f3-aea4-6c12de160359_large.jpg?v=1743595494",
+          "product_name": "Detan+ Oil Balance Fluid Sunscreen for Oily Skin - 50g",
+          "product_url": "https://aqualogicaprod.myshopify.com/products/detan-oil-balance-fluid-sunscreen-for-oily-skin-50g"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "jsonld",
+      "num_products": 10,
+      "platform_url": "https://www.myntra.com/products",
+      "products": [
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "MuscleBlaze Unisex Brand Logo Printed Round Neck Compression T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/muscleblaze/muscleblaze-unisex-brand-logo-printed-round-neck-compression-t-shirt/32635652/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "HM Men White Solid Cotton Pure Cotton T-shirt Regular Fit",
+          "product_url": "https://www.myntra.com/tshirts/h%26m/hm-men-white-solid-cotton-pure-cotton-t-shirt-regular-fit/11468714/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "HM Men Black Solid Cotton Pure Cotton T-shirt Regular Fit",
+          "product_url": "https://www.myntra.com/tshirts/h%26m/hm-men-black-solid-cotton-pure-cotton-t-shirt-regular-fit/11468732/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Bushirt Men Cotton T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/bushirt/bushirt-men-cotton-t-shirt/31228260/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "BAESD Unisex Twistform Twinny Zone Pack Of 2 GoodBad Printed Cotton Oversized T-shirts",
+          "product_url": "https://www.myntra.com/tshirts/baesd/baesd-unisex-twistform-twinny-zone-pack-of-2-goodbad-printed-cotton-oversized-t-shirts/33319640/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "Rigo Unisex Typography Printed Round Neck Cotton Oversized T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/rigo/rigo-unisex-typography-printed-round-neck-cotton-oversized-t-shirt/33281220/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "BROWN BROTHERS Unisex Pure Cotton Round Neck Short Sleeves Oversized Pockets T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/brown+brothers/brown-brothers-unisex-pure-cotton-round-neck-short-sleeves-oversized-pockets-t-shirt/29027526/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "H&M Regular Fit Round-Neck T-Shirt",
+          "product_url": "https://www.myntra.com/tshirts/h%26m/hm-regular-fit-round-neck-t-shirt/35737936/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "BAESD Unisex 2 Drop-Shoulder Sleeves Twistform T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/baesd/baesd-unisex-2-drop-shoulder-sleeves-twistform-t-shirt/33319634/buy"
+        },
+        {
+          "cost": null,
+          "currency": "USD",
+          "image_url": "",
+          "product_name": "MaverIQ Men White Cotton Printed T-shirt",
+          "product_url": "https://www.myntra.com/tshirts/maveriq/maveriq-men-white-cotton-printed-t-shirt/36592217/buy"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 18,
+      "platform_url": "https://levi.in/pages/searchtap-search?q=products",
+      "products": [
+        {
+          "cost": 1649.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70870077_01_Front_caa0ad1b-8a6f-45d9-82fb-db2c2529b2bd_large.jpg?v=1740488434",
+          "product_name": "Men's 511 Black Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-511-black-slim-fit-jeans-a70870077"
+        },
+        {
+          "cost": 1649.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70870089_02_Style_Shot_large.jpg?v=1740488435",
+          "product_name": "Men's 511 Navy Blue Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-511-navy-slim-fit-jeans-a70870089"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/4137c782-6609-41c6-aea2-255aa328f2a31747302446237-Mens-512-Slim-Tapered-Fit-Black-Jeans-421747302445722-1_large.jpg?v=1761629892",
+          "product_name": "Men's 512 Black Slim Tapered Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-512-slim-tapered-fit-black-jeans-002iy0003"
+        },
+        {
+          "cost": 3399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/003FO0001_01_Styleshot_large.jpg?v=1748415660",
+          "product_name": "Women's Navy Blue Vintage Chino Wideleg Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-vintage-chino-wide-leg-navy-blue-jeans-003fo0001"
+        },
+        {
+          "cost": 1694.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/005RC0033_01_Styleshot_large.jpg?v=1761287059",
+          "product_name": "Men's 505 Indigo Straight Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-505-indigo-straight-fit-mid-rise-jeans-005rc0033"
+        },
+        {
+          "cost": 3799.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/244750226_03_Back_large.jpg?v=1736847661",
+          "product_name": "Women's 721 Light Blue Skinny Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-721-skinny-light-blue-jeans-244750226"
+        },
+        {
+          "cost": 1759.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70860107_01_Front_3d35cbd7-d334-4cc6-8ce2-46b8c7063243_large.jpg?v=1740547164",
+          "product_name": "Men's 512 Blue Slim Tapered Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-512-blue-slim-tapered-fit-jeans-a70860107"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/7a38cfd2589234dfbb955e9c19baf061_large.jpg?v=1745226805",
+          "product_name": "Women's 721 Blue Skinny Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-721-skinny-fit-blue-jeans-244750229"
+        },
+        {
+          "cost": 3399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70870114_02_StyleShot_large.jpg?v=1740488447",
+          "product_name": "Men's 511 Blue Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-jeans-a70870114"
+        },
+        {
+          "cost": 3399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70870105_02_StyleShot_large.jpg?v=1740488451",
+          "product_name": "Men's 511 Blue Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-511-indigo-slim-fit-jeans-a70870105"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A39410053_01_Styleshot_large.jpg?v=1748416176",
+          "product_name": "Women's 94 Light Blue Baggy Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-94-light-blue-baggy-fit-high-rise-jeans-a39410053"
+        },
+        {
+          "cost": 9999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/001H90028_01_Styleshot_large.jpg?v=1742815598",
+          "product_name": "Men's 505 Black Straight Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-505-regular-fit-blue-jeans-001h90028"
+        },
+        {
+          "cost": 7000.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/aa8982e2-5c9a-4b61-b41e-8d09f4190b1e1719560008886-Levis-Women-Jeans-1921719560008360-4_large.jpg?v=1743758481",
+          "product_name": "Women's Blue Bootcut Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/levis-womens-mid-rise-ankle-bootcut-jeans-a61590000"
+        },
+        {
+          "cost": 3799.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/213060663_05_Styleshot_large.jpg?v=1734527384",
+          "product_name": "Women's 711 Blue Skinny Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-mid-rise-711-blue-skinny-jeans-213060663"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/360870925_05_Styleshot_large.jpg?v=1740547189",
+          "product_name": "Men's 512 Blue Slim Tapered Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-512-slim-tapered-fit-blue-jeans-360870925"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/2ec6842f2756764fc43f422416d75309_large.jpg?v=1747222490",
+          "product_name": "Women's 724 Blue Straight Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-724-straight-fit-blue-jeans-676670114"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/182981616_01_Styleshot_large.jpg?v=1749188052",
+          "product_name": "Men's 511 Blue Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-511-slim-fit-blue-jeans-182981616"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A25040055_01_Styleshot_large.jpg?v=1736749362",
+          "product_name": "Women's Blue Wedgie Straight Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-straight-fit-blue-jeans-a25040055"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": null,
+      "extraction_strategy": "heuristics",
+      "num_products": 18,
+      "platform_url": "https://levi.in/pages/searchtap-search?q=products",
+      "products": [
+        {
+          "cost": 1649.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70870077_01_Front_caa0ad1b-8a6f-45d9-82fb-db2c2529b2bd_large.jpg?v=1740488434",
+          "product_name": "Men's 511 Black Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-511-black-slim-fit-jeans-a70870077"
+        },
+        {
+          "cost": 1649.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70870089_02_Style_Shot_large.jpg?v=1740488435",
+          "product_name": "Men's 511 Navy Blue Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-511-navy-slim-fit-jeans-a70870089"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/4137c782-6609-41c6-aea2-255aa328f2a31747302446237-Mens-512-Slim-Tapered-Fit-Black-Jeans-421747302445722-1_large.jpg?v=1761629892",
+          "product_name": "Men's 512 Black Slim Tapered Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-512-slim-tapered-fit-black-jeans-002iy0003"
+        },
+        {
+          "cost": 3399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/003FO0001_01_Styleshot_large.jpg?v=1748415660",
+          "product_name": "Women's Navy Blue Vintage Chino Wideleg Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-vintage-chino-wide-leg-navy-blue-jeans-003fo0001"
+        },
+        {
+          "cost": 1694.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/005RC0033_01_Styleshot_large.jpg?v=1761287059",
+          "product_name": "Men's 505 Indigo Straight Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-505-indigo-straight-fit-mid-rise-jeans-005rc0033"
+        },
+        {
+          "cost": 3799.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/244750226_03_Back_large.jpg?v=1736847661",
+          "product_name": "Women's 721 Light Blue Skinny Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-721-skinny-light-blue-jeans-244750226"
+        },
+        {
+          "cost": 1759.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70860107_01_Front_3d35cbd7-d334-4cc6-8ce2-46b8c7063243_large.jpg?v=1740547164",
+          "product_name": "Men's 512 Blue Slim Tapered Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-512-blue-slim-tapered-fit-jeans-a70860107"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/7a38cfd2589234dfbb955e9c19baf061_large.jpg?v=1745226805",
+          "product_name": "Women's 721 Blue Skinny Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-721-skinny-fit-blue-jeans-244750229"
+        },
+        {
+          "cost": 3399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70870114_02_StyleShot_large.jpg?v=1740488447",
+          "product_name": "Men's 511 Blue Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-jeans-a70870114"
+        },
+        {
+          "cost": 3399.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A70870105_02_StyleShot_large.jpg?v=1740488451",
+          "product_name": "Men's 511 Blue Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-511-indigo-slim-fit-jeans-a70870105"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A39410053_01_Styleshot_large.jpg?v=1748416176",
+          "product_name": "Women's 94 Light Blue Baggy Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-94-light-blue-baggy-fit-high-rise-jeans-a39410053"
+        },
+        {
+          "cost": 9999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/001H90028_01_Styleshot_large.jpg?v=1742815598",
+          "product_name": "Men's 505 Black Straight Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-505-regular-fit-blue-jeans-001h90028"
+        },
+        {
+          "cost": 7000.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/aa8982e2-5c9a-4b61-b41e-8d09f4190b1e1719560008886-Levis-Women-Jeans-1921719560008360-4_large.jpg?v=1743758481",
+          "product_name": "Women's Blue Bootcut Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/levis-womens-mid-rise-ankle-bootcut-jeans-a61590000"
+        },
+        {
+          "cost": 3799.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/213060663_05_Styleshot_large.jpg?v=1734527384",
+          "product_name": "Women's 711 Blue Skinny Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-mid-rise-711-blue-skinny-jeans-213060663"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/360870925_05_Styleshot_large.jpg?v=1740547189",
+          "product_name": "Men's 512 Blue Slim Tapered Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-512-slim-tapered-fit-blue-jeans-360870925"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/2ec6842f2756764fc43f422416d75309_large.jpg?v=1747222490",
+          "product_name": "Women's 724 Blue Straight Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-724-straight-fit-blue-jeans-676670114"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/182981616_01_Styleshot_large.jpg?v=1749188052",
+          "product_name": "Men's 511 Blue Slim Fit Mid Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/mens-511-slim-fit-blue-jeans-182981616"
+        },
+        {
+          "cost": 3999.0,
+          "currency": "INR",
+          "image_url": "https://cdn.shopify.com/s/files/1/0805/5128/0930/files/A25040055_01_Styleshot_large.jpg?v=1736749362",
+          "product_name": "Women's Blue Wedgie Straight Fit High Rise Jeans",
+          "product_url": "https://levis-india-store.myshopify.com/products/womens-high-rise-straight-fit-blue-jeans-a25040055"
+        }
+      ],
+      "success": true
+    },
+    {
+      "error": "No products found by any strategy",
+      "extraction_strategy": "none",
+      "num_products": 0,
+      "platform_url": "https://www.meesho.com/search?q=products",
+      "products": [],
+      "success": false
+    },
+    {
+      "error": "No products found by any strategy",
+      "extraction_strategy": "none",
+      "num_products": 0,
+      "platform_url": "https://www.meesho.com/search?q=products",
+      "products": [],
+      "success": false
+    }
+  ],
+  "success": true,
+  "total_processed": 20,
+  "total_products": 416
+}
