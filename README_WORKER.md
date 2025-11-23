@@ -30,8 +30,8 @@ Set the following environment variables:
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_KEY=your-supabase-anon-key
 
-# Railway URL-to-HTML Service (Private Networking)
-URLTOHTML_PRIVATE_URL=http://urltohtml.railway.internal:8000/api/v1/fetch-batch
+# Railway URL-to-HTML Service (Public HTTPS API)
+URLTOHTML_URL=https://urltohtml-production.up.railway.app/api/v1/fetch-batch
 ```
 
 ### Optional
@@ -129,10 +129,11 @@ This prevents multiple workers from processing the same URL.
 
 ### 2. HTML Fetching
 
-URLs are sent to the Railway URL-to-HTML service via private networking:
-- Endpoint: `http://urltohtml.railway.internal:8000/api/v1/fetch-batch`
+URLs are sent to the Railway URL-to-HTML service via public HTTPS API:
+- Endpoint: `https://urltohtml-production.up.railway.app/api/v1/fetch-batch`
 - Batch size: Up to 100 URLs per request
 - Retry logic: Exponential backoff on failures
+- Timeout: 1 hour for large batches
 
 ### 3. Product Extraction
 
@@ -196,9 +197,9 @@ Press `Ctrl+C` to gracefully stop the worker. It will finish processing the curr
 
 ### HTML Fetch Failures
 
-- Verify Railway private networking is configured
-- Check `URLTOHTML_PRIVATE_URL` is correct
-- Verify the URL-to-HTML service is running
+- Verify the public HTTPS API endpoint is accessible
+- Check `URLTOHTML_URL` is correct
+- Verify the URL-to-HTML service is running and publicly accessible
 
 ### Database Errors
 

@@ -77,10 +77,10 @@ except Exception as e:
     logger.error(f"Failed to initialize Supabase client: {e}", exc_info=True)
     raise
 
-# Railway URL-to-HTML service (private networking)
+# Railway URL-to-HTML service (public HTTPS API)
 URLTOHTML_URL = os.getenv(
-    "URLTOHTML_PRIVATE_URL",
-    "http://urltohtml.railway.internal:8000/api/v1/fetch-batch"
+    "URLTOHTML_URL",
+    "https://urltohtml-production.up.railway.app/api/v1/fetch-batch"
 )
 
 # Worker configuration
@@ -150,18 +150,19 @@ def fetch_pending_urls(batch_size: int = BATCH_SIZE) -> List[Dict[str, Any]]:
 
 def fetch_html_from_railway(urls: List[str]) -> List[Dict[str, Any]]:
     """
-    Fetch HTML content from Railway URL-to-HTML service via private networking.
+    Fetch HTML content from Railway URL-to-HTML service via HTTPS API.
     
     Args:
         urls: List of URLs to fetch HTML for
         
     Returns:
-        List of dicts with 'url' and 'html' keys
+        List of dicts with 'url', 'html', 'status', 'method', and optionally 'error' keys
     """
     if not urls:
         return []
     
     logger.info(f"Fetching HTML for {len(urls)} URLs from Railway service")
+    logger.info(f"API URL: {URLTOHTML_URL}")
     
     payload = {"urls": urls}
     
@@ -170,22 +171,31 @@ def fetch_html_from_railway(urls: List[str]) -> List[Dict[str, Any]]:
             response = session.post(
                 URLTOHTML_URL,
                 json=payload,
-                timeout=300  # 5 minute timeout for batch
+                timeout=3600  # 1 hour timeout for batch (as per API example)
             )
             response.raise_for_status()
             
             data = response.json()
             
-            # Parse API response
+            # Parse API response - the API returns {"summary": {...}, "results": [...]}
             if isinstance(data, dict) and 'results' in data:
                 results = data['results']
+                summary = data.get('summary', {})
+                logger.info(f"API Summary: {summary.get('success', 0)}/{summary.get('total', 0)} successful, "
+                          f"Total time: {summary.get('total_time', 0):.2f}s")
             elif isinstance(data, list):
+                # Fallback: if response is directly a list
                 results = data
             else:
                 logger.error(f"Unexpected API response format: {type(data)}")
+                logger.error(f"Response keys: {list(data.keys()) if isinstance(data, dict) else 'N/A'}")
                 return []
             
-            logger.info(f"Successfully fetched HTML for {len(results)} URLs")
+            # Log successful vs failed counts
+            successful = [r for r in results if r.get('status') == 'success']
+            failed = [r for r in results if r.get('status') == 'failed']
+            logger.info(f"Successfully fetched HTML: {len(successful)} successful, {len(failed)} failed")
+            
             return results
             
         except requests.exceptions.RequestException as e:
@@ -198,7 +208,10 @@ def fetch_html_from_railway(urls: List[str]) -> List[Dict[str, Any]]:
             else:
                 logger.error("All retry attempts exhausted for HTML fetching")
                 # Return empty results with error info
-                return [{'url': url, 'html': '', 'status': 'error', 'error': str(e)} for url in urls]
+                return [{'url': url, 'html': '', 'status': 'failed', 'error': str(e)} for url in urls]
+        except Exception as e:
+            logger.error(f"Unexpected error fetching HTML: {e}", exc_info=True)
+            return [{'url': url, 'html': '', 'status': 'failed', 'error': str(e)} for url in urls]
     
     return []
 
@@ -399,7 +412,7 @@ def process_batch(url_records: List[Dict[str, Any]]):
         url = html_result.get('url', '')
         html = html_result.get('html', '')
         status = html_result.get('status', '')
-        success_flag = html_result.get('success', None)
+        method = html_result.get('method', 'unknown')
         
         # Find corresponding record
         record = url_to_record.get(url)
@@ -411,22 +424,22 @@ def process_batch(url_records: List[Dict[str, Any]]):
         product_type_id = record['product_type_id']
         
         # Check if HTML fetch was successful
-        # Handle both string status ('success') and boolean success flag
-        is_success = (
-            status == 'success' or 
-            (success_flag is True) or
-            (status == '' and success_flag is None and html)  # Assume success if no status but HTML present
-        )
+        # API returns status as 'success' or 'failed'
+        is_success = status == 'success'
         
         if not is_success or not html or (isinstance(html, str) and len(html.strip()) == 0):
             error_msg = html_result.get('error', 'No HTML content received')
-            logger.warning(f"Failed to fetch HTML for {url}: {error_msg}")
+            logger.warning(f"Failed to fetch HTML for {url}: {error_msg} (Method: {method})")
             update_url_status(
                 url_id=url_id,
                 success=False,
                 error_message=error_msg
             )
             continue
+        
+        # Log successful fetch
+        html_size = len(html) if html else 0
+        logger.debug(f"Fetched HTML for {url}: {html_size:,} bytes (Method: {method})")
         
         try:
             # Extract products from HTML
@@ -473,6 +486,7 @@ def run_worker():
     logger.info(f"Batch size: {BATCH_SIZE}")
     logger.info(f"Poll interval: {POLL_INTERVAL}s")
     logger.info(f"URL-to-HTML service: {URLTOHTML_URL}")
+    logger.info(f"Using public HTTPS API endpoint")
     logger.info(f"Supabase URL: {SUPABASE_URL[:50]}..." if SUPABASE_URL else "Not set")
     logger.info("=" * 60)
     

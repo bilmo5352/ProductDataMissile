@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```env
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_KEY=your-supabase-anon-key
-URLTOHTML_PRIVATE_URL=http://urltohtml.railway.internal:8000/api/v1/fetch-batch
+URLTOHTML_URL=https://urltohtml-production.up.railway.app/api/v1/fetch-batch
 ```
 
 3. Run the worker:
@@ -61,7 +61,7 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
 ### Required
 - `SUPABASE_URL` - Your Supabase project URL
 - `SUPABASE_KEY` - Your Supabase anon key
-- `URLTOHTML_PRIVATE_URL` - Railway private networking URL for HTML fetching
+- `URLTOHTML_URL` - Railway public HTTPS API URL for HTML fetching
 
 ### Optional
 - `WORKER_BATCH_SIZE` - URLs per batch (default: 100)

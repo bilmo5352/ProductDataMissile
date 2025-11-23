@@ -51,7 +51,7 @@ In Railway dashboard, go to your service → **Variables** tab and add:
 ```
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_KEY=your-supabase-anon-key
-URLTOHTML_PRIVATE_URL=http://urltohtml.railway.internal:8000/api/v1/fetch-batch
+URLTOHTML_URL=https://urltohtml-production.up.railway.app/api/v1/fetch-batch
 ```
 
 ### Optional Variables
@@ -65,9 +65,9 @@ RETRY_DELAY=10
 ```
 
 **Important Notes:**
-- `URLTOHTML_PRIVATE_URL` should use Railway's private networking format: `http://service-name.railway.internal:port/path`
-- Replace `urltohtml` with your actual Railway service name for the URL-to-HTML service
-- Make sure both services are in the same Railway project for private networking to work
+- `URLTOHTML_URL` should use the public HTTPS API endpoint
+- Default value: `https://urltohtml-production.up.railway.app/api/v1/fetch-batch`
+- Update the URL if your service is deployed at a different location
 
 ## Step 4: Deploy
 
@@ -148,9 +148,9 @@ For the worker to communicate with the URL-to-HTML service via private networkin
 
 ### Cannot Connect to URL-to-HTML Service
 
-- Verify both services are in the same Railway project
-- Check service name in `URLTOHTML_PRIVATE_URL` matches actual service name
-- Verify port number is correct
+- Verify the public HTTPS API endpoint is accessible
+- Check `URLTOHTML_URL` is correct and the service is publicly accessible
+- Test the endpoint manually with a curl request
 - Check URL-to-HTML service is running and healthy
 
 ### No URLs Being Processed
