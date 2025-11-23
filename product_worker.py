@@ -21,6 +21,7 @@ import uuid
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Semaphore, Lock
 from dotenv import load_dotenv
 from supabase import create_client, Client
 
@@ -94,7 +95,14 @@ RETRY_DELAY = int(os.getenv('RETRY_DELAY', '10'))  # seconds
 # Parallel processing configuration
 # Use MAX_WORKERS if set (for backward compatibility), otherwise use EXTRACTION_WORKERS
 # This controls how many URLs are processed in parallel for product extraction
-EXTRACTION_WORKERS = int(os.getenv('MAX_WORKERS', os.getenv('EXTRACTION_WORKERS', '10')))
+# Railway Pro supports higher worker counts - recommended: 20-50 for Pro accounts
+EXTRACTION_WORKERS = int(os.getenv('MAX_WORKERS', os.getenv('EXTRACTION_WORKERS', '50')))
+
+# Database connection throttling - limit concurrent Supabase operations
+# With 50 workers, we need to throttle DB operations to avoid connection pool exhaustion
+MAX_CONCURRENT_DB_OPS = int(os.getenv('MAX_CONCURRENT_DB_OPS', '10'))  # Max concurrent DB operations
+db_semaphore = Semaphore(MAX_CONCURRENT_DB_OPS)  # Semaphore to limit concurrent DB operations
+db_lock = Lock()  # Lock for thread-safe operations
 
 # Create requests session for URL-to-HTML service
 session = requests.Session()
@@ -368,6 +376,7 @@ def extract_products_from_html(html_content: str, source_url: str, product_type_
 def save_products_to_supabase(products: List[Dict], platform_url: str, product_type_id: int) -> int:
     """
     Save extracted products to Supabase r_product_data table.
+    Uses batch insert with connection throttling to handle high concurrency.
     
     Args:
         products: List of product dictionaries
@@ -381,52 +390,130 @@ def save_products_to_supabase(products: List[Dict], platform_url: str, product_t
         logger.warning("Supabase client not initialized. Skipping database save.")
         return 0
     
-    saved_count = 0
-    errors = []
+    if not products:
+        return 0
     
-    for product in products:
-        try:
-            # Prepare data for Supabase table
-            db_record = {
-                'platform_url': platform_url,
-                'product_name': product.get('product_name', ''),
-                'product_url': product.get('product_url', ''),
-                'product_image_url': product.get('image_url') or None,
-                'original_price': str(product.get('original_price', '')) if product.get('original_price') else None,
-                'current_price': float(product.get('cost')) if product.get('cost') else None,
-                'product_type_id': product_type_id,
-                'rating': float(product.get('rating')) if product.get('rating') else None,
-                'reviews': int(product.get('review_count')) if product.get('review_count') else None,
-                'brand': product.get('brand') or None,
-                'in_stock': 'Yes' if product.get('in_stock', True) else 'No',
-                'description': product.get('description') or None,
-                'category_id': None,
-                'searched_product_id': None,
-            }
-            
-            # Only save if we have required fields
-            if not db_record['product_name'] or not db_record['product_url']:
-                logger.debug(f"Skipping product with missing required fields")
-                continue
-            
-            # Insert into Supabase
-            result = supabase.table('r_product_data').insert(db_record).execute()
-            
-            if result.data:
-                saved_count += 1
-            else:
-                errors.append(f"Failed to save product: {db_record.get('product_name', 'Unknown')}")
+    # Acquire semaphore to limit concurrent database operations
+    # This prevents connection pool exhaustion with 50 parallel workers
+    db_semaphore.acquire()
+    try:
+        # Prepare all records first
+        db_records = []
+        for product in products:
+            try:
+                # Prepare data for Supabase table
+                db_record = {
+                    'platform_url': platform_url,
+                    'product_name': product.get('product_name', ''),
+                    'product_url': product.get('product_url', ''),
+                    'product_image_url': product.get('image_url') or None,
+                    'original_price': str(product.get('original_price', '')) if product.get('original_price') else None,
+                    'current_price': float(product.get('cost')) if product.get('cost') else None,
+                    'product_type_id': product_type_id,
+                    'rating': float(product.get('rating')) if product.get('rating') else None,
+                    'reviews': int(product.get('review_count')) if product.get('review_count') else None,
+                    'brand': product.get('brand') or None,
+                    'in_stock': 'Yes' if product.get('in_stock', True) else 'No',
+                    'description': product.get('description') or None,
+                    'category_id': None,
+                    'searched_product_id': None,
+                }
                 
-        except Exception as e:
-            error_msg = f"Error saving product to Supabase: {type(e).__name__}: {str(e)}"
-            logger.error(error_msg)
-            errors.append(error_msg)
-            continue
+                # Only save if we have required fields
+                if db_record['product_name'] and db_record['product_url']:
+                    db_records.append(db_record)
+            except Exception as e:
+                logger.debug(f"Error preparing product record: {e}")
+                continue
+        
+        if not db_records:
+            return 0
+        
+        # Use batch insert with retry logic
+        saved_count = 0
+        max_retries = 3
+        # Increase batch size for better performance (Supabase supports up to 1000 rows per insert)
+        batch_size = 100  # Insert in batches to avoid connection issues
+        
+        for i in range(0, len(db_records), batch_size):
+            batch = db_records[i:i + batch_size]
+            
+            for attempt in range(max_retries):
+                try:
+                    # Batch insert with thread-safe operation
+                    with db_lock:
+                        result = supabase.table('r_product_data').insert(batch).execute()
+                    
+                    if result.data:
+                        saved_count += len(result.data)
+                        break  # Success, move to next batch
+                    else:
+                        if attempt < max_retries - 1:
+                            wait_time = 0.5 * (2 ** attempt)  # Exponential backoff
+                            logger.warning(f"Batch insert returned no data, retrying in {wait_time}s...")
+                            time.sleep(wait_time)
+                        else:
+                            logger.warning(f"Failed to save batch of {len(batch)} products after {max_retries} attempts")
+                            
+                except Exception as e:
+                    error_type = type(e).__name__
+                    error_msg = str(e)
+                    
+                    # Check if it's a connection error
+                    if 'RemoteProtocolError' in error_type or 'Server disconnected' in error_msg or 'Connection' in error_type:
+                        if attempt < max_retries - 1:
+                            wait_time = 1.0 * (2 ** attempt)  # Longer wait for connection errors
+                            logger.warning(f"Connection error (attempt {attempt + 1}/{max_retries}): {error_type}. Retrying in {wait_time}s...")
+                            time.sleep(wait_time)
+                            continue
+                        else:
+                            logger.error(f"Connection error after {max_retries} attempts: {error_type}: {error_msg}")
+                            # Try individual inserts as fallback
+                            saved_count += _save_products_individually(batch, platform_url, product_type_id)
+                            break
+                    else:
+                        # Other errors - log and continue
+                        logger.error(f"Error saving batch to Supabase: {error_type}: {error_msg}")
+                        if attempt < max_retries - 1:
+                            time.sleep(0.5 * (2 ** attempt))
+                        else:
+                            break
+        
+        if saved_count > 0:
+            logger.debug(f"Successfully saved {saved_count}/{len(products)} products to Supabase")
+        
+        return saved_count
+        
+    finally:
+        # Always release semaphore, even on error
+        db_semaphore.release()
+
+
+def _save_products_individually(db_records: List[Dict], platform_url: str, product_type_id: int) -> int:
+    """
+    Fallback: Save products one by one with retries.
+    Used when batch insert fails.
+    Uses semaphore to limit concurrent operations.
+    """
+    saved_count = 0
     
-    if saved_count > 0:
-        logger.info(f"Successfully saved {saved_count}/{len(products)} products to Supabase")
-    if errors:
-        logger.warning(f"Encountered {len(errors)} errors while saving to Supabase")
+    for db_record in db_records:
+        db_semaphore.acquire()
+        try:
+            for attempt in range(3):
+                try:
+                    with db_lock:
+                        result = supabase.table('r_product_data').insert(db_record).execute()
+                    if result.data:
+                        saved_count += 1
+                        break
+                except Exception as e:
+                    if attempt < 2:
+                        time.sleep(0.5 * (2 ** attempt))
+                    else:
+                        logger.debug(f"Failed to save individual product after retries: {type(e).__name__}")
+        finally:
+            db_semaphore.release()
     
     return saved_count
 
@@ -440,6 +527,7 @@ def update_url_status(
 ):
     """
     Update the processing status of a URL in product_page_urls table.
+    Uses connection throttling to prevent pool exhaustion.
     
     Args:
         url_id: ID of the URL record
@@ -452,6 +540,8 @@ def update_url_status(
         logger.warning("Supabase client not initialized. Skipping status update.")
         return
     
+    # Acquire semaphore to limit concurrent database operations
+    db_semaphore.acquire()
     try:
         update_data = {
             'processing_status': 'completed' if success else 'failed',
@@ -468,7 +558,8 @@ def update_url_status(
             update_data['error_message'] = error_message
             # Increment retry count on failure
             try:
-                current_record = supabase.table('product_page_urls').select('retry_count').eq('id', url_id).execute()
+                with db_lock:
+                    current_record = supabase.table('product_page_urls').select('retry_count').eq('id', url_id).execute()
                 if current_record.data:
                     current_retry_count = current_record.data[0].get('retry_count', 0) or 0
                     update_data['retry_count'] = current_retry_count + 1
@@ -476,11 +567,15 @@ def update_url_status(
                 logger.warning(f"Could not fetch current retry count: {e}")
                 update_data['retry_count'] = 1
         
-        supabase.table('product_page_urls').update(update_data).eq('id', url_id).execute()
+        with db_lock:
+            supabase.table('product_page_urls').update(update_data).eq('id', url_id).execute()
         logger.debug(f"Updated status for URL ID {url_id}: success={success}, products={products_found}")
         
     except Exception as e:
         logger.error(f"Error updating URL status for ID {url_id}: {e}", exc_info=True)
+    finally:
+        # Always release semaphore
+        db_semaphore.release()
 
 
 def process_batch(url_records: List[Dict[str, Any]]):
@@ -704,6 +799,9 @@ def run_worker():
     logger.info(f"Batch size: {BATCH_SIZE}")
     logger.info(f"Poll interval: {POLL_INTERVAL}s")
     logger.info(f"Parallel extraction workers: {EXTRACTION_WORKERS} (from MAX_WORKERS or EXTRACTION_WORKERS env var)")
+    logger.info(f"Max concurrent DB operations: {MAX_CONCURRENT_DB_OPS} (throttled to prevent connection errors)")
+    if EXTRACTION_WORKERS >= 30:
+        logger.info(f"⚡ High-performance mode: {EXTRACTION_WORKERS} workers (Railway Pro recommended)")
     logger.info(f"URL-to-HTML service: {URLTOHTML_URL}")
     logger.info(f"Using public HTTPS API endpoint")
     logger.info(f"Supabase URL: {SUPABASE_URL[:50]}..." if SUPABASE_URL else "Not set")
