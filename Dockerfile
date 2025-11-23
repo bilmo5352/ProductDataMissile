@@ -1,3 +1,4 @@
+# Dockerfile for Product Extraction Worker
 # Use Python 3.11 slim image for smaller size
 FROM python:3.11-slim
 
@@ -30,14 +31,6 @@ COPY . .
 RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
 USER appuser
 
-# Expose port
-EXPOSE 5000
-
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python -c "import requests; requests.get('http://localhost:5000/health')" || exit 1
-
-# Run the application with gunicorn
-# Use PORT environment variable if set (Railway provides this)
-CMD sh -c "gunicorn --bind 0.0.0.0:${PORT:-5000} --workers 2 --threads 4 --timeout 300 api_server:app"
+# Run the worker (no port needed for worker)
+CMD ["python", "product_worker.py"]
 
