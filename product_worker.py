@@ -113,23 +113,46 @@ def fetch_pending_urls(batch_size: int = BATCH_SIZE) -> List[Dict[str, Any]]:
         return []
     
     try:
-        # Fetch pending URLs and claim them atomically
-        # Use a transaction-like approach: select and update in one query where possible
-        # For Supabase, we'll fetch and then update claimed status
+        # First, check total pending count for logging
+        count_response = supabase.table('product_page_urls').select(
+            'id', count='exact'
+        ).eq('processing_status', 'pending').execute()
         
-        # First, fetch pending URLs
+        total_pending = count_response.count if hasattr(count_response, 'count') else None
+        
+        # Fetch pending URLs ordered by ID for consistent batching
         response = supabase.table('product_page_urls').select(
             'id, product_type_id, product_page_url, retry_count'
-        ).eq('processing_status', 'pending').limit(batch_size).execute()
+        ).eq('processing_status', 'pending').order('id', desc=False).limit(batch_size).execute()
         
         if not response.data:
+            if total_pending is not None:
+                logger.info(f"No pending URLs found (Total pending in DB: {total_pending})")
+            else:
+                logger.info("No pending URLs found")
             return []
         
         urls = response.data
-        logger.info(f"Fetched {len(urls)} pending URLs")
+        
+        # Extract ID range for logging
+        url_ids = [url['id'] for url in urls]
+        min_id = min(url_ids)
+        max_id = max(url_ids)
+        
+        # Log detailed batch information
+        logger.info("=" * 60)
+        logger.info(f"FETCHED BATCH FROM SUPABASE")
+        logger.info(f"  Total pending URLs in DB: {total_pending if total_pending is not None else 'unknown'}")
+        logger.info(f"  Fetched: {len(urls)} URLs")
+        logger.info(f"  ID Range: {min_id} to {max_id} (span: {max_id - min_id + 1} IDs)")
+        logger.info(f"  Sample URLs:")
+        for i, url_record in enumerate(urls[:3]):  # Show first 3 URLs
+            logger.info(f"    [{url_record['id']}] {url_record['product_page_url'][:80]}...")
+        if len(urls) > 3:
+            logger.info(f"    ... and {len(urls) - 3} more")
+        logger.info("=" * 60)
         
         # Claim the URLs by updating their status
-        url_ids = [url['id'] for url in urls]
         claim_timestamp = datetime.utcnow().isoformat()
         
         # Update all URLs to 'processing' status and set claim info
@@ -139,12 +162,13 @@ def fetch_pending_urls(batch_size: int = BATCH_SIZE) -> List[Dict[str, Any]]:
             'claimed_at': claim_timestamp
         }).in_('id', url_ids).execute()
         
-        logger.info(f"Claimed {len(url_ids)} URLs for processing")
+        logger.info(f"✓ Claimed {len(url_ids)} URLs for processing (IDs: {min_id}-{max_id})")
         
         return urls
         
     except Exception as e:
         logger.error(f"Error fetching pending URLs: {e}", exc_info=True)
+        logger.error(f"Error details: {type(e).__name__}: {str(e)}")
         return []
 
 
@@ -396,7 +420,16 @@ def process_batch(url_records: List[Dict[str, Any]]):
     if not url_records:
         return
     
-    logger.info(f"Processing batch of {len(url_records)} URLs")
+    # Extract ID range for logging
+    url_ids = [record['id'] for record in url_records]
+    min_id = min(url_ids)
+    max_id = max(url_ids)
+    
+    logger.info("=" * 60)
+    logger.info(f"PROCESSING BATCH")
+    logger.info(f"  Batch size: {len(url_records)} URLs")
+    logger.info(f"  ID Range: {min_id} to {max_id}")
+    logger.info("=" * 60)
     
     # Extract URLs for HTML fetching
     urls = [record['product_page_url'] for record in url_records]
@@ -465,15 +498,23 @@ def process_batch(url_records: List[Dict[str, Any]]):
                 error_message=error_message
             )
             
-            logger.info(f"Processed {url}: {products_found} products found, {products_saved} saved")
+            logger.info(f"[ID {url_id}] Processed {url}: {products_found} products found, {products_saved} saved")
             
         except Exception as e:
-            logger.error(f"Error processing {url}: {e}", exc_info=True)
+            logger.error(f"[ID {url_id}] Error processing {url}: {e}", exc_info=True)
             update_url_status(
                 url_id=url_id,
                 success=False,
                 error_message=f"{type(e).__name__}: {str(e)}"
             )
+    
+    # Log batch completion summary
+    logger.info("=" * 60)
+    logger.info(f"BATCH PROCESSING COMPLETE")
+    logger.info(f"  Total URLs in batch: {len(url_records)}")
+    logger.info(f"  HTML results received: {len(html_results)}")
+    logger.info(f"  ID Range processed: {min_id} to {max_id}")
+    logger.info("=" * 60)
 
 
 def run_worker():
