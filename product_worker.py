@@ -175,6 +175,7 @@ def fetch_pending_urls(batch_size: int = BATCH_SIZE) -> List[Dict[str, Any]]:
 def fetch_html_from_railway(urls: List[str]) -> List[Dict[str, Any]]:
     """
     Fetch HTML content from Railway URL-to-HTML service via HTTPS API.
+    Matches the exact API usage pattern from the example.
     
     Args:
         urls: List of URLs to fetch HTML for
@@ -185,43 +186,109 @@ def fetch_html_from_railway(urls: List[str]) -> List[Dict[str, Any]]:
     if not urls:
         return []
     
-    logger.info(f"Fetching HTML for {len(urls)} URLs from Railway service")
-    logger.info(f"API URL: {URLTOHTML_URL}")
+    logger.info(f"Sending {len(urls)} URLs to API...")
+    logger.info(f"API: {URLTOHTML_URL}")
     
     payload = {"urls": urls}
     
     for attempt in range(MAX_RETRIES):
         try:
+            # Make the request exactly as shown in the example
             response = session.post(
                 URLTOHTML_URL,
                 json=payload,
-                timeout=3600  # 1 hour timeout for batch (as per API example)
+                timeout=3600  # 1 hour timeout (as per example)
             )
-            response.raise_for_status()
             
-            data = response.json()
-            
-            # Parse API response - the API returns {"summary": {...}, "results": [...]}
-            if isinstance(data, dict) and 'results' in data:
-                results = data['results']
-                summary = data.get('summary', {})
-                logger.info(f"API Summary: {summary.get('success', 0)}/{summary.get('total', 0)} successful, "
-                          f"Total time: {summary.get('total_time', 0):.2f}s")
-            elif isinstance(data, list):
-                # Fallback: if response is directly a list
-                results = data
+            # Check if request was successful (status code 200)
+            if response.status_code == 200:
+                data = response.json()
+                
+                # Parse summary exactly as in the example
+                summary = data.get("summary", {})
+                logger.info("=" * 60)
+                logger.info("API RESULTS")
+                logger.info("=" * 60)
+                logger.info(f"Total URLs: {summary.get('total', 0)}")
+                logger.info(f"Successful: {summary.get('success', 0)}")
+                logger.info(f"Failed: {summary.get('failed', 0)}")
+                logger.info(f"Success Rate: {summary.get('success_rate', 0):.2f}%")
+                logger.info(f"Total Time: {summary.get('total_time', 0):.2f} seconds")
+                
+                # Print results by method
+                by_method = summary.get('by_method', {})
+                if by_method:
+                    logger.info("Results by Method:")
+                    for method, count in by_method.items():
+                        logger.info(f"  {method}: {count}")
+                
+                # Get results array
+                results = data.get("results", [])
+                
+                # Show successful URLs
+                successful = [r for r in results if r.get("status") == "success"]
+                if successful:
+                    logger.info(f"Successful URLs ({len(successful)}):")
+                    for result in successful[:5]:  # Show first 5
+                        html_size = len(result.get("html", ""))
+                        logger.info(f"  ✓ {result['url']}")
+                        logger.info(f"    Method: {result.get('method', 'unknown')}, Size: {html_size:,} bytes")
+                    if len(successful) > 5:
+                        logger.info(f"    ... and {len(successful) - 5} more successful")
+                
+                # Show failed URLs
+                failed = [r for r in results if r.get("status") == "failed"]
+                if failed:
+                    logger.info(f"Failed URLs ({len(failed)}):")
+                    for result in failed[:5]:  # Show first 5
+                        logger.info(f"  ✗ {result['url']}")
+                        logger.info(f"    Error: {result.get('error', 'Unknown error')[:100]}")
+                    if len(failed) > 5:
+                        logger.info(f"    ... and {len(failed) - 5} more failed")
+                
+                logger.info("=" * 60)
+                
+                return results
             else:
-                logger.error(f"Unexpected API response format: {type(data)}")
-                logger.error(f"Response keys: {list(data.keys()) if isinstance(data, dict) else 'N/A'}")
-                return []
+                # Handle non-200 status codes
+                error_text = response.text[:500]  # Limit error text length
+                logger.error(f"Error: API returned status {response.status_code}")
+                logger.error(f"Response: {error_text}")
+                
+                # For rate limiting (429), wait longer before retry
+                if response.status_code == 429:
+                    wait_time = RETRY_DELAY * (2 ** attempt) * 2  # Double wait for rate limits
+                    logger.warning(f"Rate limited. Waiting {wait_time} seconds before retry...")
+                    if attempt < MAX_RETRIES - 1:
+                        time.sleep(wait_time)
+                        continue
+                
+                # For other errors, try to parse response if possible
+                try:
+                    error_data = response.json()
+                    error_msg = error_data.get('error', error_data.get('message', f'HTTP {response.status_code}'))
+                except:
+                    error_msg = f'HTTP {response.status_code}: {error_text}'
+                
+                if attempt < MAX_RETRIES - 1:
+                    delay = RETRY_DELAY * (2 ** attempt)
+                    logger.info(f"Retrying in {delay} seconds...")
+                    time.sleep(delay)
+                    continue
+                else:
+                    # Return failed results for all URLs
+                    return [{'url': url, 'html': '', 'status': 'failed', 'error': error_msg} for url in urls]
             
-            # Log successful vs failed counts
-            successful = [r for r in results if r.get('status') == 'success']
-            failed = [r for r in results if r.get('status') == 'failed']
-            logger.info(f"Successfully fetched HTML: {len(successful)} successful, {len(failed)} failed")
-            
-            return results
-            
+        except requests.exceptions.Timeout as e:
+            logger.error(f"Attempt {attempt + 1}/{MAX_RETRIES} timed out: {e}")
+            if attempt < MAX_RETRIES - 1:
+                delay = RETRY_DELAY * (2 ** attempt)
+                logger.info(f"Retrying in {delay} seconds...")
+                time.sleep(delay)
+            else:
+                logger.error("All retry attempts exhausted due to timeout")
+                return [{'url': url, 'html': '', 'status': 'failed', 'error': f'Request timeout: {str(e)}'} for url in urls]
+                
         except requests.exceptions.RequestException as e:
             logger.error(f"Attempt {attempt + 1}/{MAX_RETRIES} failed: {e}")
             
@@ -431,11 +498,41 @@ def process_batch(url_records: List[Dict[str, Any]]):
     logger.info(f"  ID Range: {min_id} to {max_id}")
     logger.info("=" * 60)
     
-    # Extract URLs for HTML fetching
-    urls = [record['product_page_url'] for record in url_records]
+    # Filter out Meesho URLs (temporary condition - to be removed later)
+    meesho_urls = []
+    non_meesho_records = []
+    
+    for record in url_records:
+        url = record.get('product_page_url', '').lower()
+        if 'meesho' in url:
+            meesho_urls.append(record)
+        else:
+            non_meesho_records.append(record)
+    
+    if meesho_urls:
+        logger.info(f"⚠️  Skipping {len(meesho_urls)} Meesho URLs (temporary filter)")
+        for meesho_record in meesho_urls:
+            url_id = meesho_record['id']
+            url = meesho_record['product_page_url']
+            logger.info(f"  [ID {url_id}] Skipped Meesho URL: {url}")
+            # Mark as failed with skip reason
+            update_url_status(
+                url_id=url_id,
+                success=False,
+                error_message="Skipped: Meesho links temporarily excluded (filter will be removed later)"
+            )
+    
+    # Extract URLs for HTML fetching (only non-Meesho URLs)
+    urls = [record['product_page_url'] for record in non_meesho_records]
     
     # Create mapping from URL to record
-    url_to_record = {record['product_page_url']: record for record in url_records}
+    url_to_record = {record['product_page_url']: record for record in non_meesho_records}
+    
+    if not urls:
+        logger.info("No URLs to process after filtering (all were Meesho URLs)")
+        return
+    
+    logger.info(f"Processing {len(urls)} non-Meesho URLs")
     
     # Fetch HTML from Railway service
     html_results = fetch_html_from_railway(urls)
