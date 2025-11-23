@@ -20,6 +20,7 @@ import socket
 import uuid
 from datetime import datetime
 from typing import List, Dict, Any, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dotenv import load_dotenv
 from supabase import create_client, Client
 
@@ -89,6 +90,11 @@ WORKER_ID = os.getenv('WORKER_ID', socket.gethostname() or str(uuid.uuid4())[:8]
 POLL_INTERVAL = int(os.getenv('POLL_INTERVAL', '5'))  # seconds between batches
 MAX_RETRIES = int(os.getenv('MAX_RETRIES', '3'))
 RETRY_DELAY = int(os.getenv('RETRY_DELAY', '10'))  # seconds
+
+# Parallel processing configuration
+# Use MAX_WORKERS if set (for backward compatibility), otherwise use EXTRACTION_WORKERS
+# This controls how many URLs are processed in parallel for product extraction
+EXTRACTION_WORKERS = int(os.getenv('MAX_WORKERS', os.getenv('EXTRACTION_WORKERS', '10')))
 
 # Create requests session for URL-to-HTML service
 session = requests.Session()
@@ -533,16 +539,22 @@ def process_batch(url_records: List[Dict[str, Any]]):
         return
     
     logger.info(f"Processing {len(urls)} non-Meesho URLs")
+    logger.info(f"📤 Sending all {len(urls)} URLs in a SINGLE batch request to URL-to-HTML API...")
     
-    # Fetch HTML from Railway service
+    # Fetch HTML from Railway service - ALL URLs in ONE request
     html_results = fetch_html_from_railway(urls)
     
-    # Process each result
+    logger.info(f"📥 Received HTML responses for {len(html_results)} URLs")
+    logger.info(f"⚡ Now processing HTML contents in parallel using {EXTRACTION_WORKERS} workers...")
+    
+    # Filter successful results for parallel processing
+    successful_results = []
+    failed_results = []
+    
     for html_result in html_results:
         url = html_result.get('url', '')
-        html = html_result.get('html', '')
         status = html_result.get('status', '')
-        method = html_result.get('method', 'unknown')
+        html = html_result.get('html', '')
         
         # Find corresponding record
         record = url_to_record.get(url)
@@ -550,60 +562,128 @@ def process_batch(url_records: List[Dict[str, Any]]):
             logger.warning(f"No record found for URL: {url}")
             continue
         
-        url_id = record['id']
-        product_type_id = record['product_type_id']
-        
         # Check if HTML fetch was successful
-        # API returns status as 'success' or 'failed'
-        is_success = status == 'success'
+        is_success = status == 'success' and html and (isinstance(html, str) and len(html.strip()) > 0)
         
-        if not is_success or not html or (isinstance(html, str) and len(html.strip()) == 0):
-            error_msg = html_result.get('error', 'No HTML content received')
-            logger.warning(f"Failed to fetch HTML for {url}: {error_msg} (Method: {method})")
-            update_url_status(
-                url_id=url_id,
-                success=False,
-                error_message=error_msg
-            )
-            continue
+        if is_success:
+            successful_results.append({
+                'html_result': html_result,
+                'record': record
+            })
+        else:
+            failed_results.append({
+                'html_result': html_result,
+                'record': record
+            })
+    
+    # Process failed results immediately (no HTML to extract)
+    for item in failed_results:
+        html_result = item['html_result']
+        record = item['record']
+        url = html_result.get('url', '')
+        url_id = record['id']
+        error_msg = html_result.get('error', 'No HTML content received')
+        method = html_result.get('method', 'unknown')
         
-        # Log successful fetch
-        html_size = len(html) if html else 0
-        logger.debug(f"Fetched HTML for {url}: {html_size:,} bytes (Method: {method})")
+        logger.warning(f"[ID {url_id}] Failed to fetch HTML for {url}: {error_msg} (Method: {method})")
+        update_url_status(
+            url_id=url_id,
+            success=False,
+            error_message=error_msg
+        )
+    
+    # Process successful results in parallel
+    if successful_results:
+        logger.info(f"Processing {len(successful_results)} URLs with HTML content using {EXTRACTION_WORKERS} parallel workers...")
+        start_time = time.time()
         
-        try:
-            # Extract products from HTML
-            extraction_result = extract_products_from_html(html, url, product_type_id)
+        def process_single_url(item):
+            """Process a single URL: extract products and save to database."""
+            html_result = item['html_result']
+            record = item['record']
+            url = html_result.get('url', '')
+            html = html_result.get('html', '')
+            method = html_result.get('method', 'unknown')
+            url_id = record['id']
+            product_type_id = record['product_type_id']
             
-            products = extraction_result.get('products', [])
-            products_found = len(products)
+            try:
+                # Extract products from HTML
+                extraction_result = extract_products_from_html(html, url, product_type_id)
+                
+                products = extraction_result.get('products', [])
+                products_found = len(products)
+                
+                # Save products to database
+                products_saved = 0
+                if products:
+                    products_saved = save_products_to_supabase(products, url, product_type_id)
+                
+                # Update URL status
+                success = extraction_result.get('success', False) and products_found > 0
+                error_message = extraction_result.get('error')
+                
+                update_url_status(
+                    url_id=url_id,
+                    success=success,
+                    products_found=products_found,
+                    products_saved=products_saved,
+                    error_message=error_message
+                )
+                
+                return {
+                    'url_id': url_id,
+                    'url': url,
+                    'success': True,
+                    'products_found': products_found,
+                    'products_saved': products_saved,
+                    'error': None
+                }
+                
+            except Exception as e:
+                logger.error(f"[ID {url_id}] Error processing {url}: {e}", exc_info=True)
+                update_url_status(
+                    url_id=url_id,
+                    success=False,
+                    error_message=f"{type(e).__name__}: {str(e)}"
+                )
+                return {
+                    'url_id': url_id,
+                    'url': url,
+                    'success': False,
+                    'products_found': 0,
+                    'products_saved': 0,
+                    'error': str(e)
+                }
+        
+        # Process in parallel using ThreadPoolExecutor
+        processed_count = 0
+        with ThreadPoolExecutor(max_workers=EXTRACTION_WORKERS) as executor:
+            # Submit all tasks
+            future_to_item = {
+                executor.submit(process_single_url, item): item
+                for item in successful_results
+            }
             
-            # Save products to database
-            products_saved = 0
-            if products:
-                products_saved = save_products_to_supabase(products, url, product_type_id)
-            
-            # Update URL status
-            success = extraction_result.get('success', False) and products_found > 0
-            error_message = extraction_result.get('error')
-            
-            update_url_status(
-                url_id=url_id,
-                success=success,
-                products_found=products_found,
-                products_saved=products_saved,
-                error_message=error_message
-            )
-            
-            logger.info(f"[ID {url_id}] Processed {url}: {products_found} products found, {products_saved} saved")
-            
-        except Exception as e:
-            logger.error(f"[ID {url_id}] Error processing {url}: {e}", exc_info=True)
-            update_url_status(
-                url_id=url_id,
-                success=False,
-                error_message=f"{type(e).__name__}: {str(e)}"
-            )
+            # Collect results as they complete
+            for future in as_completed(future_to_item):
+                item = future_to_item[future]
+                try:
+                    result = future.result()
+                    processed_count += 1
+                    
+                    if result['success']:
+                        logger.info(f"[ID {result['url_id']}] Processed {result['url']}: "
+                                  f"{result['products_found']} products found, {result['products_saved']} saved")
+                    else:
+                        logger.warning(f"[ID {result['url_id']}] Failed: {result['error']}")
+                        
+                except Exception as e:
+                    logger.error(f"Error in parallel processing: {e}", exc_info=True)
+        
+        elapsed_time = time.time() - start_time
+        logger.info(f"✓ Parallel extraction complete: {processed_count}/{len(successful_results)} URLs processed in {elapsed_time:.2f}s "
+                  f"(avg: {elapsed_time/len(successful_results):.2f}s per URL)")
     
     # Log batch completion summary
     logger.info("=" * 60)
@@ -623,6 +703,7 @@ def run_worker():
     logger.info(f"Worker ID: {WORKER_ID}")
     logger.info(f"Batch size: {BATCH_SIZE}")
     logger.info(f"Poll interval: {POLL_INTERVAL}s")
+    logger.info(f"Parallel extraction workers: {EXTRACTION_WORKERS} (from MAX_WORKERS or EXTRACTION_WORKERS env var)")
     logger.info(f"URL-to-HTML service: {URLTOHTML_URL}")
     logger.info(f"Using public HTTPS API endpoint")
     logger.info(f"Supabase URL: {SUPABASE_URL[:50]}..." if SUPABASE_URL else "Not set")
