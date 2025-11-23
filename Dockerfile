@@ -32,5 +32,6 @@ RUN useradd -m -u 1000 appuser && chown -R appuser:appuser /app
 USER appuser
 
 # Run the worker (no port needed for worker)
-CMD ["python", "product_worker.py"]
+# Use unbuffered Python output for immediate log visibility in Railway
+CMD ["python", "-u", "product_worker.py"]
 

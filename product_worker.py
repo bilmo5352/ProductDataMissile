@@ -23,36 +23,59 @@ from typing import List, Dict, Any, Optional
 from dotenv import load_dotenv
 from supabase import create_client, Client
 
-from html_parser import HTMLProductParser
-
-# Load environment variables
+# Load environment variables first
 load_dotenv()
 
-# Configure logging
+# Import parser after env is loaded
+try:
+    from html_parser import HTMLProductParser
+except ImportError as e:
+    print(f"CRITICAL: Failed to import html_parser: {e}")
+    print("Make sure html_parser.py exists in the same directory")
+    raise
+
+# Configure logging - ensure it outputs to stdout/stderr for Railway
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler()  # Explicitly add StreamHandler for Railway logs
+    ],
+    force=True  # Force reconfiguration
 )
 logger = logging.getLogger(__name__)
 
+# Log startup
+logger.info("=" * 60)
+logger.info("Product Extraction Worker Starting...")
+logger.info("=" * 60)
+
 # Initialize parser
-parser = HTMLProductParser()
+try:
+    parser = HTMLProductParser()
+    logger.info("HTML parser initialized successfully")
+except Exception as e:
+    logger.error(f"Failed to initialize HTML parser: {e}", exc_info=True)
+    raise
 
 # Initialize Supabase client
 SUPABASE_URL = os.getenv('SUPABASE_URL', '')
 SUPABASE_KEY = os.getenv('SUPABASE_KEY', '')
 supabase: Optional[Client] = None
 
-if SUPABASE_URL and SUPABASE_KEY:
-    try:
-        supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
-        logger.info("Supabase client initialized successfully")
-    except Exception as e:
-        logger.error(f"Failed to initialize Supabase client: {e}")
-        raise
-else:
-    logger.error("Supabase credentials not provided. Set SUPABASE_URL and SUPABASE_KEY environment variables.")
-    raise ValueError("Missing Supabase credentials")
+if not SUPABASE_URL or not SUPABASE_KEY:
+    error_msg = "Supabase credentials not provided. Set SUPABASE_URL and SUPABASE_KEY environment variables."
+    logger.error(error_msg)
+    logger.error(f"SUPABASE_URL present: {bool(SUPABASE_URL)}")
+    logger.error(f"SUPABASE_KEY present: {bool(SUPABASE_KEY)}")
+    raise ValueError(error_msg)
+
+try:
+    supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+    logger.info("Supabase client initialized successfully")
+except Exception as e:
+    logger.error(f"Failed to initialize Supabase client: {e}", exc_info=True)
+    raise
 
 # Railway URL-to-HTML service (private networking)
 URLTOHTML_URL = os.getenv(
@@ -444,9 +467,14 @@ def run_worker():
     """
     Main worker loop: continuously fetch and process URLs.
     """
-    logger.info(f"Starting product extraction worker (ID: {WORKER_ID})")
-    logger.info(f"Batch size: {BATCH_SIZE}, Poll interval: {POLL_INTERVAL}s")
+    logger.info("=" * 60)
+    logger.info(f"Product Extraction Worker Running")
+    logger.info(f"Worker ID: {WORKER_ID}")
+    logger.info(f"Batch size: {BATCH_SIZE}")
+    logger.info(f"Poll interval: {POLL_INTERVAL}s")
     logger.info(f"URL-to-HTML service: {URLTOHTML_URL}")
+    logger.info(f"Supabase URL: {SUPABASE_URL[:50]}..." if SUPABASE_URL else "Not set")
+    logger.info("=" * 60)
     
     consecutive_empty_batches = 0
     max_empty_batches = 10  # Log warning after 10 empty batches
@@ -483,5 +511,11 @@ def run_worker():
 
 
 if __name__ == "__main__":
-    run_worker()
+    try:
+        run_worker()
+    except KeyboardInterrupt:
+        logger.info("Worker stopped by user")
+    except Exception as e:
+        logger.critical(f"Fatal error in worker: {e}", exc_info=True)
+        raise
 
